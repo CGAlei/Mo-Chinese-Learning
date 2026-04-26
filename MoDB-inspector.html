@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="gruvbox">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MoDB Inspector</title>
+<link rel="stylesheet" href="mo-layout.css">
+<style>
+  /* Inspector-specific tweaks */
+  .inspector-nav {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 6px 10px 10px;
+    scroll-behavior: smooth;
+  }
+
+  .nav-item {
+    padding: 10px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--text);
+    background: transparent;
+    width: 100%;
+    text-align: left;
+    font-family: inherit;
+  }
+
+  .nav-item:hover { background: var(--panel-hover); transform: translateX(3px); }
+  .nav-item.active { background: rgba(100,100,100,0.1); border-color: var(--highlight); color: var(--highlight); font-weight: bold; }
+
+  .actions-paired { display: flex; gap: 10px; }
+
+  .results-panel {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 20px;
+  }
+
+  .search-box-inline {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+  }
+
+  .search-box-inline input {
+    width: 320px;
+    max-width: 100%;
+  }
+
+  pre {
+    background: var(--panel-bg);
+    border: 1px solid var(--border);
+    padding: 12px;
+    overflow-x: auto;
+    font-size: 12px;
+    border-radius: var(--radius-md);
+    color: var(--text);
+  }
+
+  .page-nav {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+
+  .page-nav button { padding: 4px 12px; font-size: 12px; margin: 0; }
+
+  /* Inspect stores view */
+  .store {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    letter-spacing: 0.01em;
+    color: var(--text);
+  }
+  .store:first-of-type { margin-top: 0; }
+  .store .count { font-weight: 400; color: var(--muted); font-size: 0.9em; }
+
+  .results-panel table { margin-bottom: 28px; font-size: 13px; }
+  .results-panel table td { padding: 6px 10px; }
+  .results-panel table th { padding: 6px 10px; font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; }
+  .results-panel table td.type { color: var(--highlight); font-family: monospace; font-size: 12px; }
+  .results-panel table td.field { font-weight: 500; }
+
+  /* Search results & profile */
+  .results-panel > h2:first-child { margin-top: 0; }
+  .results-panel > h2 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: 28px 0 12px;
+    color: var(--text);
+  }
+  .results-panel > h2 .count { font-weight: 400; color: var(--muted); font-size: 0.9em; }
+
+  .profile { margin-top: 8px; margin-bottom: 20px; }
+
+  .profile-section { margin-bottom: 22px; }
+  .profile-section:last-child { margin-bottom: 0; }
+  .profile-section h3 {
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--highlight);
+    margin: 0 0 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .profile-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 3px 0;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .profile-row .label {
+    min-width: 110px;
+    color: var(--muted);
+    font-size: 12px;
+    flex-shrink: 0;
+    font-weight: 500;
+  }
+  .profile-row .value { color: var(--text); word-break: break-word; }
+  .profile-row .ok      { color: var(--success); }
+  .profile-row .missing { color: var(--danger); }
+  .profile-row .warn    { color: var(--warning); }
+
+  .sentence-block {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 14px;
+    padding: 10px 12px;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+  }
+  .sentence-block:last-child { margin-bottom: 0; }
+  .sentence-line {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .sentence-line .label {
+    min-width: 110px;
+    color: var(--muted);
+    font-size: 12px;
+    flex-shrink: 0;
+    font-weight: 500;
+  }
+  .sentence-line .value { word-break: break-word; }
+
+  .blob-badge {
+    display: inline-block;
+    background: rgba(62, 207, 90, 0.12);
+    color: var(--success);
+    border: 1px solid rgba(62, 207, 90, 0.3);
+    padding: 1px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+
+  .empty { color: var(--muted); font-size: 13px; margin-bottom: 8px; }
+
+  /* Word grid (Browse / Partial matches) */
+  .word-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    margin-bottom: 28px;
+  }
+  .word-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 12px 14px;
+    transition: border-color 0.2s, transform 0.15s;
+  }
+  .word-card:hover { transform: translateY(-2px); border-color: var(--highlight); }
+  .word-card .hanzi    { font-size: 1.3rem; font-weight: 600; margin-bottom: 2px; }
+  .word-card .pinyin   { font-size: 13px; color: var(--highlight); margin-bottom: 2px; }
+  .word-card .meaning  { font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+  .word-card .meta     { font-size: 11px; color: var(--muted); display: flex; gap: 8px; }
+
+  @media (max-width: 700px) {
+    .search-box-inline input { width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<div class="app-layout">
+  <!-- LEFT SIDEBAR -->
+  <aside class="sidebar">
+    <header class="sidebar-header">
+      <div class="sidebar-header-top">
+        <h2>🔍 MoDB</h2>
+      </div>
+      <div class="sidebar-actions actions-paired">
+        <button class="btn-primary" onclick="exportDB()">💾 Export</button>
+        <button class="btn-secondary" onclick="document.getElementById('importFile').click()">📥 Import</button>
+        <input type="file" id="importFile" accept=".json" class="hidden-input" onchange="importDB(this)">
+      </div>
+    </header>
+
+    <nav class="inspector-nav" id="inspectorNav">
+      <button class="nav-item active" onclick="setActiveNav(this); inspect()">🔍 Inspect Stores</button>
+      <button class="nav-item" onclick="setActiveNav(this); showSchema()">📋 Show Schema</button>
+      <button class="nav-item" onclick="setActiveNav(this); browseWords()">📚 Browse Words</button>
+      <button class="nav-item" onclick="setActiveNav(this); searchUI()">🔎 Search Word</button>
+      <button class="nav-item" onclick="setActiveNav(this); liveStats()">📊 Live Stats</button>
+      <button class="nav-item" onclick="setActiveNav(this); clearDB()">⚠️ Clear MoDB</button>
+
+      <div style="margin-top: 14px; padding: 0 4px;">
+        <select id="themeSelect" style="width: 100%;" onchange="document.documentElement.setAttribute('data-theme', this.value)">
+          <option value="midnight">Midnight Slate</option>
+          <option value="oled">OLED Black</option>
+          <option value="nordic">Nordic Night</option>
+          <option value="gruvbox" selected>Gruvbox</option>
+          <option value="everforest">Everforest</option>
+        </select>
+      </div>
+    </nav>
+  </aside>
+
+  <!-- RIGHT MAIN -->
+  <main class="main-content">
+    <div id="searchBox" class="search-box-inline" style="display:none">
+      <input type="text" id="q" placeholder="Type hanzi or pinyin..." onkeydown="if(event.key==='Enter')doSearch()">
+      <button class="btn-primary" onclick="doSearch()">Search</button>
+    </div>
+
+    <div id="results" class="panel results-panel">
+      <div class="empty-state">
+        <span>Select an action from the sidebar to inspect your MoDB database.</span>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script src="mo-common.js"></script>
+<script>
+function setActiveNav(el) {
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  el.classList.add('active');
+}
+
+function escHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+let _allWords = [];
+let _page = 0;
+const PAGE_SIZE = 20;
+
+async function inspect() {
+  const results = document.getElementById('results');
+  results.innerHTML = '<p class="empty-state">Loading...</p>';
+  await MoDB.open();
+
+  const stores = [MoDB.S.WORDS, MoDB.S.AUDIO, MoDB.S.SENTENCES, MoDB.S.SRS, MoDB.S.SESSIONS, MoDB.S.SETTINGS];
+  let html = '';
+
+  for (const storeName of stores) {
+    const all = await MoDB.getAll(storeName);
+    html += `<h2 class="store">Store: <strong>${storeName}</strong> <span class="count">(${all.length} records)</span></h2>`;
+
+    if (all.length === 0) {
+      html += '<p><em>Empty</em></p>';
+      continue;
+    }
+
+    const keys = new Set();
+    for (const rec of all.slice(0, 5)) Object.keys(rec).forEach(k => keys.add(k));
+
+    html += '<table><tr><th>Field</th><th>Type</th><th>Sample Value (first record)</th></tr>';
+    for (const key of Array.from(keys).sort()) {
+      const val = all[0][key];
+      let type = typeof val;
+      let preview = JSON.stringify(val);
+      if (preview.length > 80) preview = preview.substring(0, 80) + '...';
+      if (val instanceof ArrayBuffer) { type = 'ArrayBuffer'; preview = `ArrayBuffer(${val.byteLength} bytes)`; }
+      html += `<tr><td class="field">${key}</td><td class="type">${type}</td><td>${preview}</td></tr>`;
+    }
+    html += '</table>';
+  }
+
+  html += '<h2 class="store">Settings Detail</h2><pre>' + JSON.stringify(await MoDB.getSettings(), null, 2) + '</pre>';
+  const flags = await MoDB.detectMigrationNeeded();
+  html += '<h2 class="store">Migration Detection</h2><pre>' + JSON.stringify(flags, null, 2) + '</pre>';
+
+  results.innerHTML = html;
+}
+
+function showSchema() {
+  const schema = {
+    'words': { id:'PK hanzi', hanzi:'string', pinyin:'string', pinyinToneless:'string', meaning:'string', source:'string', createdAt:'number', updatedAt:'number', enriched:'boolean' },
+    'audio': { id:'PK hanzi', wordAudio:'ArrayBuffer', sentenceAudios:'array', source:'string', createdAt:'number', updatedAt:'number' },
+    'sentences': { id:'auto-increment', wordId:'FK', zh:'string', es:'string', createdAt:'number', updatedAt:'number' },
+    'srs': { id:'PK hanzi', interval:'number', ease:'number', due:'number', reps:'number', lapses:'number', hidden:'boolean' },
+    'sessions': { id:'PK "category/name"', category:'string', name:'string', readCount:'number', lastRead:'number', updatedAt:'number' },
+    'settings': { id:'global', theme:'string', cardScale:'number', sessionSize:'number', apiKeys:'object', readerTheme:'string', readerFont:'string', readerFontSize:'number', readerHighlight:'string', readerActiveStyle:'string', readerAnimStyle:'string', updatedAt:'number' }
+  };
+  document.getElementById('results').innerHTML = '<h2>Schema</h2><pre>' + JSON.stringify(schema, null, 2) + '</pre>';
+}
+
+async function browseWords() {
+  const results = document.getElementById('results');
+  results.innerHTML = '<p class="empty-state">Loading words...</p>';
+  await MoDB.open();
+  _allWords = await MoDB.getAllWords();
+  _page = 0;
+  renderPage();
+}
+
+function renderPage() {
+  const results = document.getElementById('results');
+  const start = _page * PAGE_SIZE;
+  const slice = _allWords.slice(start, start + PAGE_SIZE);
+
+  let html = `<h2>📚 Words <span class="count">(${_allWords.length} total)</span></h2>`;
+  html += `<div class="page-nav"><button class="btn-secondary" onclick="prevPage()" ${_page===0?'disabled':''}>← Prev</button>`;
+  html += `Page ${_page + 1} of ${Math.ceil(_allWords.length / PAGE_SIZE)}`;
+  html += `<button class="btn-secondary" onclick="nextPage()" ${start+PAGE_SIZE>=_allWords.length?'disabled':''}>Next →</button></div>`;
+
+  html += '<div class="word-grid">';
+  for (const w of slice) {
+    html += `<div class="word-card">
+      <div class="hanzi">${w.hanzi}</div>
+      <div class="pinyin">${w.pinyin || '—'} <span style="color:#666">(${w.pinyinToneless || '—'})</span></div>
+      <div class="meaning">${w.meaning || '—'}</div>
+      <div class="meta">
+        <span>src: ${w.source}</span>
+        <span>enr: ${w.enriched ? '✓' : '—'}</span>
+        <span>${new Date(w.updatedAt).toLocaleDateString()}</span>
+      </div>
+    </div>`;
+  }
+  html += '</div>';
+  results.innerHTML = html;
+}
+
+function prevPage() { if (_page > 0) { _page--; renderPage(); } }
+function nextPage() { if ((_page + 1) * PAGE_SIZE < _allWords.length) { _page++; renderPage(); } }
+
+function searchUI() {
+  document.getElementById('searchBox').style.display = '';
+  document.getElementById('q').focus();
+  document.getElementById('results').innerHTML = '<p class="empty-state">Enter a hanzi above and press Enter.</p>';
+}
+
+async function doSearch() {
+  const q = document.getElementById('q').value.trim();
+  if (!q) return;
+  const results = document.getElementById('results');
+  results.innerHTML = '<p class="empty-state">Searching...</p>';
+  await MoDB.open();
+
+  let html = '';
+
+  try {
+    const exact = await MoDB.getWord(q);
+    if (exact) {
+      html += await renderWordProfile(exact);
+    } else {
+      html += '<h2>Exact Match</h2><p class="empty">Not found</p>';
+    }
+
+    const all = await MoDB.getAllWords();
+    const partials = all.filter(w => w.hanzi && w.hanzi.includes(q)).slice(0, 20);
+    html += `<h2>Partial Matches <span class="count">(${partials.length})</span></h2>`;
+    if (partials.length === 0) {
+      html += '<p class="empty">No partial matches</p>';
+    } else {
+      html += '<div class="word-grid">';
+      for (const w of partials) {
+        html += `<div class="word-card">
+          <div class="hanzi">${w.hanzi}</div>
+          <div class="pinyin">${w.pinyin || '—'}</div>
+          <div class="meaning">${w.meaning || '—'}</div>
+          <div class="meta"><span>src: ${w.source}</span><span>enr: ${w.enriched ? '✓' : '—'}</span></div>
+        </div>`;
+      }
+      html += '</div>';
+    }
+
+    const sessions = await MoDB.getAllSessions();
+    const relSessions = sessions.filter(s => s.id.includes(q));
+    html += `<h2>Sessions <span class="count">(${relSessions.length})</span></h2>`;
+    if (relSessions.length) {
+      html += '<pre>' + JSON.stringify(relSessions, null, 2) + '</pre>';
+    } else {
+      html += '<p class="empty">No matching sessions</p>';
+    }
+  } catch (err) {
+    html += `<h2 style="color:#f44">Search Error</h2><pre style="color:#f44">${err.name}: ${err.message}\n\n${err.stack}</pre>`;
+  }
+
+  results.innerHTML = html;
+}
+
+async function renderWordProfile(word) {
+  const [audio, allSentences, srs] = await Promise.all([
+    MoDB.get(MoDB.S.AUDIO, word.id),
+    MoDB.getAll(MoDB.S.SENTENCES),
+    MoDB.get(MoDB.S.SRS, word.id),
+  ]);
+
+  const sentences = allSentences.filter(s => s.wordId === word.id);
+
+  let html = `<h2>Word Profile: <span style="color:var(--highlight)">${word.hanzi}</span></h2><div class="profile">`;
+
+  html += `<div class="profile-section"><h3>Word</h3>`;
+  html += `<div class="profile-row"><span class="label">Pinyin</span><span class="value">${word.pinyin || '—'} <span style="color:var(--muted)">(${word.pinyinToneless || '—'})</span></span></div>`;
+  html += `<div class="profile-row"><span class="label">Meaning</span><span class="value">${word.meaning || '—'}</span></div>`;
+  html += `<div class="profile-row"><span class="label">Source</span><span class="value">${word.source}</span></div>`;
+  html += `<div class="profile-row"><span class="label">Enriched</span><span class="value ${word.enriched ? 'ok' : 'missing'}">${word.enriched ? '✓ Yes' : '✗ No'}</span></div>`;
+  html += `<div class="profile-row"><span class="label">Updated</span><span class="value">${new Date(word.updatedAt).toLocaleString()}</span></div>`;
+  html += `</div>`;
+
+  html += `<div class="profile-section"><h3>Audio</h3>`;
+  if (audio) {
+    const hasWordAudio = audio.wordAudio && audio.wordAudio.byteLength > 0;
+    const sentenceAudioCount = (audio.sentenceAudios || []).filter(sa => sa.audio && (sa.audio.byteLength > 0 || (sa.audio instanceof ArrayBuffer && sa.audio.byteLength > 0))).length;
+    html += `<div class="profile-row"><span class="label">Word Audio</span><span class="value ${hasWordAudio ? 'ok' : 'missing'}">${hasWordAudio ? `<span class="blob-badge">✓ Stored (${audio.wordAudio.byteLength.toLocaleString()} bytes)</span>` : '✗ Missing'}</span></div>`;
+    html += `<div class="profile-row"><span class="label">Sentence Audios</span><span class="value ${sentenceAudioCount > 0 ? 'ok' : 'missing'}">${sentenceAudioCount} / ${(audio.sentenceAudios || []).length} with blob data</span></div>`;
+    html += `<div class="profile-row"><span class="label">Audio Source</span><span class="value">${audio.source || '—'}</span></div>`;
+    html += `<div class="profile-row"><span class="label">Audio Updated</span><span class="value">${new Date(audio.updatedAt).toLocaleString()}</span></div>`;
+  } else {
+    html += `<div class="profile-row"><span class="label">Status</span><span class="value missing">✗ No audio record</span></div>`;
+  }
+  html += `</div>`;
+
+  const sentenceAudioCount = audio && audio.sentenceAudios
+    ? audio.sentenceAudios.filter(sa => sa.audio && sa.audio.byteLength > 0).length
+    : 0;
+    html += `<div class="profile-section"><h3>Sentences (${sentences.length})</h3>`;
+  if (sentences.length === 0) {
+    html += `<div class="profile-row missing">No sentences generated yet.</div>`;
+  } else {
+    for (const s of sentences) {
+      const hasAudio = sentenceAudioCount > 0;
+      html += `<div class="sentence-block">`;
+      html += `<div class="sentence-line"><span class="label">ZH</span><span class="value">${s.zh || '—'}</span></div>`;
+      html += `<div class="sentence-line"><span class="label">ES</span><span class="value">${s.es || '—'}</span></div>`;
+      html += `<div class="sentence-line"><span class="label">Audio</span><span class="value ${hasAudio ? 'ok' : 'missing'}">${hasAudio ? '<span class="blob-badge">✓ Stored</span>' : '✗ Missing'}</span></div>`;
+      html += `</div>`;
+    }
+  }
+  html += `</div>`;
+
+  html += `<div class="profile-section"><h3>SRS</h3>`;
+  if (srs) {
+    html += `<div class="profile-row"><span class="label">Interval</span><span class="value">${srs.interval} day(s)</span></div>`;
+    html += `<div class="profile-row"><span class="label">Ease</span><span class="value">${srs.ease.toFixed(2)}</span></div>`;
+    html += `<div class="profile-row"><span class="label">Due</span><span class="value">${srs.due ? new Date(srs.due).toLocaleString() : 'Now'}</span></div>`;
+    html += `<div class="profile-row"><span class="label">Reps</span><span class="value">${srs.reps}</span></div>`;
+    html += `<div class="profile-row"><span class="label">Lapses</span><span class="value">${srs.lapses}</span></div>`;
+    html += `<div class="profile-row"><span class="label">Hidden</span><span class="value ${srs.hidden ? 'warn' : 'ok'}">${srs.hidden ? 'Hidden (rated)' : 'Active'}</span></div>`;
+  } else {
+    html += `<div class="profile-row missing">Not studied yet.</div>`;
+  }
+  html += `</div>`;
+
+  html += '</div>';
+  return html;
+}
+
+async function liveStats() {
+  await MoDB.open();
+  const [words, audio, sentences, srs, sessions] = await Promise.all([
+    MoDB.getAllWords(),
+    MoDB.getAll(MoDB.S.AUDIO),
+    MoDB.getAll(MoDB.S.SENTENCES),
+    MoDB.getAll(MoDB.S.SRS),
+    MoDB.getAll(MoDB.S.SESSIONS),
+  ]);
+
+  const enriched = words.filter(w => w.enriched).length;
+  const withWordAudio = audio.filter(a => a.wordAudio && a.wordAudio.byteLength > 0).length;
+  const withSentAudio = audio.filter(a => a.sentenceAudios && a.sentenceAudios.some(sa => sa.audio && sa.audio.byteLength > 0)).length;
+  const totalSentAudioBlobs = audio.reduce((sum, a) => sum + (a.sentenceAudios || []).filter(sa => sa.audio && sa.audio.byteLength > 0).length, 0);
+
+  const stats = {
+    words: words.length,
+    wordsEnriched: enriched,
+    wordAudio: withWordAudio,
+    sentenceAudioRecords: withSentAudio,
+    totalSentenceAudioBlobs: totalSentAudioBlobs,
+    sentences: sentences.length,
+    srsWords: srs.length,
+    sessions: sessions.length,
+    totalReads: sessions.reduce((a, s) => a + (s.readCount || 0), 0),
+  };
+
+  document.getElementById('results').innerHTML = '<h2>📊 Live Stats</h2><pre>' + JSON.stringify(stats, null, 2) + '</pre>';
+}
+
+async function exportDB() {
+  try {
+    const json = await MoBackup.fullExport();
+    const blob = new Blob([json], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.style.display = 'none';
+    a.href = url;
+    a.download = `mo_backup_${new Date().toISOString().slice(0,10)}_${new Date().toTimeString().slice(0,8).replace(/:/g,'-')}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    alert('Full backup downloaded ✓');
+  } catch (err) {
+    console.error('Export failed:', err);
+    alert('Export failed: ' + err.message);
+  }
+}
+
+async function importDB(input) {
+  const file = input.files[0];
+  if (!file) return;
+  input.value = '';
+
+  const results = document.getElementById('results');
+  results.innerHTML = '<p class="empty-state">Importing backup…</p>';
+
+  try {
+    const text = await file.text();
+    await MoBackup.fullImport(text);
+    results.innerHTML = '<div class="empty-state"><span style="color:var(--success);font-size:2rem">✓</span><p>Backup restored successfully.<br>' + file.name + '</p><button class="btn-primary" onclick="inspect()">View Stores</button></div>';
+  } catch (err) {
+    console.error('Import failed:', err);
+    results.innerHTML = '<div class="empty-state"><span style="color:var(--danger);font-size:2rem">✗</span><p>Import failed.<br><code style="font-size:12px">' + escHtml(err.message) + '</code></p></div>';
+  }
+}
+
+async function clearDB() {
+  if (!confirm('This will delete ALL data in MoDB. Are you sure?')) return;
+  const req = indexedDB.deleteDatabase('MoDB');
+  req.onsuccess = () => { alert('MoDB deleted. Reload page.'); };
+  req.onerror = () => { alert('Failed to delete MoDB'); };
+}
+</script>
+</body>
+</html>
