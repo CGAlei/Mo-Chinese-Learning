@@ -1430,9 +1430,7 @@ function readFile(f) {
 
 async function fullBackup() {
   try {
-    const timeStr = new Date().toTimeString().slice(0,8).replace(/:/g, '-');
-    const data = await MoBackup.fullExport();
-    downloadJSON(data, `mo_fullbackup_${todayStr()}_${timeStr}.json`);
+    await MoBackup.exportAndDownload();
     showToast('Full backup saved ✓');
   } catch (err) {
     console.error('Backup error:', err);

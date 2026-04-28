@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "date": "2026-04-28T14:42:48.945048",
+  "date": "2026-04-27T02:40:25.466Z",
   "words": [
     {
       "id": "一",
@@ -124,15 +124,6 @@
       "createdAt": 1777140762418
     },
     {
-      "id": "一些则",
-      "hanzi": "一些则",
-      "meaning": "algunos / ciertos / unos pocos",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762545
-    },
-    {
       "id": "一代",
       "hanzi": "一代",
       "pinyin": "yī dài",
@@ -208,17 +199,6 @@
       "enriched": true,
       "updatedAt": 1777149097029,
       "createdAt": 1777140762428
-    },
-    {
-      "id": "一刀两断",
-      "hanzi": "一刀两断",
-      "pinyin": "yī dāo liǎng duàn",
-      "pinyinToneless": "yi dao liang duan",
-      "meaning": "Cortar en dos",
-      "source": "reader",
-      "enriched": false,
-      "updatedAt": 1777319483081,
-      "createdAt": 1777319483081
     },
     {
       "id": "一切",
@@ -364,15 +344,6 @@
       "createdAt": 1777140762441
     },
     {
-      "id": "一套",
-      "hanzi": "一套",
-      "meaning": "un conjunto / un juego / un sistema",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762549
-    },
-    {
       "id": "一定",
       "hanzi": "一定",
       "pinyin": "yī dìng",
@@ -417,15 +388,6 @@
       "createdAt": 1777140762445
     },
     {
-      "id": "一座",
-      "hanzi": "一座",
-      "meaning": "un edificio / una montaña / una estructura",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762551
-    },
-    {
       "id": "一张",
       "hanzi": "一张",
       "pinyin": "yī zhāng",
@@ -446,17 +408,6 @@
       "enriched": true,
       "updatedAt": 1777149097112,
       "createdAt": 1777140762448
-    },
-    {
-      "id": "一拳",
-      "hanzi": "一拳",
-      "pinyin": "yī quán",
-      "pinyinToneless": "yi quan",
-      "meaning": "un puñetazo / golpe / golpeo",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777398168943,
-      "createdAt": 1777398044556
     },
     {
       "id": "一整天",
@@ -701,15 +652,6 @@
       "createdAt": 1777140762477
     },
     {
-      "id": "一端",
-      "hanzi": "一端",
-      "meaning": "un extremo / un lado / un término",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762565
-    },
-    {
       "id": "一笔",
       "hanzi": "一笔",
       "pinyin": "yī bǐ",
@@ -818,24 +760,6 @@
       "enriched": true,
       "updatedAt": 1777149097213,
       "createdAt": 1777140762489
-    },
-    {
-      "id": "一针见血",
-      "hanzi": "一针见血",
-      "meaning": "En el clavo",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234762568,
-      "createdAt": 1777234762568
-    },
-    {
-      "id": "一顿饭",
-      "hanzi": "一顿饭",
-      "meaning": "una comida / una cena / un almuerzo",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762569
     },
     {
       "id": "丁锋",
@@ -1344,15 +1268,6 @@
       "createdAt": 1777140762540
     },
     {
-      "id": "不公",
-      "hanzi": "不公",
-      "meaning": "injusticia / desigualdad / falta de equidad",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762580
-    },
-    {
       "id": "不再",
       "hanzi": "不再",
       "pinyin": "bù zài",
@@ -1518,15 +1433,6 @@
       "createdAt": 1777140762555
     },
     {
-      "id": "不容置疑",
-      "hanzi": "不容置疑",
-      "meaning": "no hay duda",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234762583,
-      "createdAt": 1777234762583
-    },
-    {
       "id": "不寒",
       "hanzi": "不寒",
       "pinyin": "bù hán",
@@ -1681,15 +1587,6 @@
       "createdAt": 1777140762567
     },
     {
-      "id": "不满",
-      "hanzi": "不满",
-      "meaning": "descontento / insatisfacción / queja",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762586
-    },
-    {
       "id": "不然",
       "hanzi": "不然",
       "pinyin": "bù rán",
@@ -1712,17 +1609,6 @@
       "createdAt": 1777140762570
     },
     {
-      "id": "不破",
-      "hanzi": "不破",
-      "pinyin": "bù pò",
-      "pinyinToneless": "bu po",
-      "meaning": "indestructible / inquebrantable / firme",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777398168943,
-      "createdAt": 1777398060078
-    },
-    {
       "id": "不算",
       "hanzi": "不算",
       "pinyin": "bù suàn",
@@ -1734,15 +1620,6 @@
       "createdAt": 1777140762571
     },
     {
-      "id": "不耐烦",
-      "hanzi": "不耐烦",
-      "meaning": "impaciencia / irritación / desagrado",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762587
-    },
-    {
       "id": "不能",
       "hanzi": "不能",
       "pinyin": "bù néng",
@@ -1752,15 +1629,6 @@
       "enriched": true,
       "updatedAt": 1777149097528,
       "createdAt": 1777140762572
-    },
-    {
-      "id": "不至于",
-      "hanzi": "不至于",
-      "meaning": "No al punto",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234762587,
-      "createdAt": 1777234762587
     },
     {
       "id": "不致",
@@ -2368,15 +2236,6 @@
       "createdAt": 1777140762627
     },
     {
-      "id": "中产阶级",
-      "hanzi": "中产阶级",
-      "meaning": "clase media / burguesía / medio",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762609
-    },
-    {
       "id": "中介",
       "hanzi": "中介",
       "pinyin": "zhōng jiè",
@@ -2474,15 +2333,6 @@
       "enriched": true,
       "updatedAt": 1777149097746,
       "createdAt": 1777140762633
-    },
-    {
-      "id": "中立",
-      "hanzi": "中立",
-      "meaning": "neutral / imparcial / equidistante",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762611
     },
     {
       "id": "中等",
@@ -2672,15 +2522,6 @@
       "createdAt": 1777140762653
     },
     {
-      "id": "主体",
-      "hanzi": "主体",
-      "meaning": "sujeto / entidad / cuerpo",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762613
-    },
-    {
       "id": "主力",
       "hanzi": "主力",
       "pinyin": "zhǔ lì",
@@ -2701,15 +2542,6 @@
       "enriched": true,
       "updatedAt": 1777149097829,
       "createdAt": 1777140762655
-    },
-    {
-      "id": "主动",
-      "hanzi": "主动",
-      "meaning": "activo / proactivo / voluntario",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762614
     },
     {
       "id": "主动攻击",
@@ -2844,15 +2676,6 @@
       "createdAt": 1777140762666
     },
     {
-      "id": "之上",
-      "hanzi": "之上",
-      "meaning": "encima / sobre / arriba",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762617
-    },
-    {
       "id": "之下",
       "hanzi": "之下",
       "pinyin": "zhī xià",
@@ -2862,15 +2685,6 @@
       "enriched": true,
       "updatedAt": 1777149097896,
       "createdAt": 1777140762667
-    },
-    {
-      "id": "之举",
-      "hanzi": "之举",
-      "meaning": "acción / medida / gesto",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762618
     },
     {
       "id": "之内",
@@ -2959,17 +2773,6 @@
       "enriched": true,
       "updatedAt": 1777149097945,
       "createdAt": 1777140762675
-    },
-    {
-      "id": "乌冬",
-      "hanzi": "乌冬",
-      "pinyin": "wū dōng",
-      "pinyinToneless": "wu dong",
-      "meaning": "udon / fideos / pasta",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777320778318
     },
     {
       "id": "乘务员",
@@ -3135,15 +2938,6 @@
       "enriched": true,
       "updatedAt": 1777149098030,
       "createdAt": 1777140762691
-    },
-    {
-      "id": "争取",
-      "hanzi": "争取",
-      "meaning": "luchar / esforzarse / conseguir",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762624
     },
     {
       "id": "争夺",
@@ -3344,26 +3138,6 @@
       "createdAt": 1777140762711
     },
     {
-      "id": "互动",
-      "hanzi": "互动",
-      "pinyin": "hù dòng",
-      "pinyinToneless": "hu dong",
-      "meaning": "interacción / comunicación / conexión",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777398168943,
-      "createdAt": 1777398030377
-    },
-    {
-      "id": "互相",
-      "hanzi": "互相",
-      "meaning": "mutuamente / entre sí / recíprocamente",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762628
-    },
-    {
       "id": "互联网",
       "hanzi": "互联网",
       "pinyin": "hù lián wǎng",
@@ -3527,15 +3301,6 @@
       "enriched": true,
       "updatedAt": 1777149098179,
       "createdAt": 1777140762727
-    },
-    {
-      "id": "交流",
-      "hanzi": "交流",
-      "meaning": "comunicación / intercambio / diálogo",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762631
     },
     {
       "id": "交片",
@@ -3714,15 +3479,6 @@
       "createdAt": 1777140762744
     },
     {
-      "id": "人体",
-      "hanzi": "人体",
-      "meaning": "cuerpo humano / organismo / anatomía",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762634
-    },
-    {
       "id": "人力",
       "hanzi": "人力",
       "pinyin": "rén lì",
@@ -3767,17 +3523,6 @@
       "createdAt": 1777140762748
     },
     {
-      "id": "人士",
-      "hanzi": "人士",
-      "pinyin": "rén shì",
-      "pinyinToneless": "ren shi",
-      "meaning": "persona / individuo / figura",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777397304126
-    },
-    {
       "id": "人工智能",
       "hanzi": "人工智能",
       "pinyin": "rén gōng zhì néng",
@@ -3809,15 +3554,6 @@
       "enriched": true,
       "updatedAt": 1777149098279,
       "createdAt": 1777140762751
-    },
-    {
-      "id": "人权",
-      "hanzi": "人权",
-      "meaning": "derechos humanos / libertades / derechos",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762635
     },
     {
       "id": "人格化",
@@ -3917,15 +3653,6 @@
       "enriched": true,
       "updatedAt": 1777149098345,
       "createdAt": 1777140762760
-    },
-    {
-      "id": "人连下",
-      "hanzi": "人连下",
-      "meaning": "conexión humana / relación / vínculo",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762637
     },
     {
       "id": "亿",
@@ -4038,15 +3765,6 @@
       "createdAt": 1777140762770
     },
     {
-      "id": "介入",
-      "hanzi": "介入",
-      "meaning": "intervenir / involucrarse / participar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762639
-    },
-    {
       "id": "介绍",
       "hanzi": "介绍",
       "pinyin": "jiè shào",
@@ -4157,15 +3875,6 @@
       "createdAt": 1777140762781
     },
     {
-      "id": "付不起",
-      "hanzi": "付不起",
-      "meaning": "No puedo permitírmelo",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234762641,
-      "createdAt": 1777234762641
-    },
-    {
       "id": "付出",
       "hanzi": "付出",
       "pinyin": "fù chū",
@@ -4186,17 +3895,6 @@
       "enriched": true,
       "updatedAt": 1777149098413,
       "createdAt": 1777140762782
-    },
-    {
-      "id": "代差",
-      "hanzi": "代差",
-      "pinyin": "dài chà",
-      "pinyinToneless": "dai cha",
-      "meaning": "diferencia generacional / brecha / disparidad",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777319828396
     },
     {
       "id": "代替",
@@ -4230,15 +3928,6 @@
       "enriched": true,
       "updatedAt": 1777149098429,
       "createdAt": 1777140770680
-    },
-    {
-      "id": "代表",
-      "hanzi": "代表",
-      "meaning": "representante / delegado / portavoz",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762642
     },
     {
       "id": "代言人",
@@ -4373,15 +4062,6 @@
       "createdAt": 1777140762797
     },
     {
-      "id": "以此",
-      "hanzi": "以此",
-      "meaning": "con esto / así / de esta manera",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762644
-    },
-    {
       "id": "以色列",
       "hanzi": "以色列",
       "pinyin": "yǐ sè liè",
@@ -4437,15 +4117,6 @@
       "createdAt": 1777140762803
     },
     {
-      "id": "价值观",
-      "hanzi": "价值观",
-      "meaning": "cosmovisión / ideología / valores",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762646
-    },
-    {
       "id": "价格",
       "hanzi": "价格",
       "pinyin": "jià gé",
@@ -4488,33 +4159,6 @@
       "enriched": true,
       "updatedAt": 1777149098513,
       "createdAt": 1777140762808
-    },
-    {
-      "id": "任由",
-      "hanzi": "任由",
-      "meaning": "dejar hacer / permitir / soltar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762647
-    },
-    {
-      "id": "份",
-      "hanzi": "份",
-      "meaning": "parte / porción / porción",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762647
-    },
-    {
-      "id": "仿报",
-      "hanzi": "仿报",
-      "meaning": "periódico de imitación",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234762648,
-      "createdAt": 1777234762648
     },
     {
       "id": "伊",
@@ -4561,15 +4205,6 @@
       "createdAt": 1777140762812
     },
     {
-      "id": "优先",
-      "hanzi": "优先",
-      "meaning": "prioridad / preferencia / preferencia",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762649
-    },
-    {
       "id": "优先级",
       "hanzi": "优先级",
       "pinyin": "yōu xiān jí",
@@ -4612,15 +4247,6 @@
       "enriched": true,
       "updatedAt": 1777149098546,
       "createdAt": 1777140762815
-    },
-    {
-      "id": "优越",
-      "hanzi": "优越",
-      "meaning": "superior / privilegiado / excelente",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762650
     },
     {
       "id": "伙伴",
@@ -4797,15 +4423,6 @@
       "enriched": true,
       "updatedAt": 1777149098596,
       "createdAt": 1777140762832
-    },
-    {
-      "id": "伪装成",
-      "hanzi": "伪装成",
-      "meaning": "disfrazarse / aparentar / simular",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762653
     },
     {
       "id": "伪造",
@@ -5050,15 +4667,6 @@
       "createdAt": 1777140762858
     },
     {
-      "id": "体征",
-      "hanzi": "体征",
-      "meaning": "signo / indicador / marca",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762656
-    },
-    {
       "id": "体现",
       "hanzi": "体现",
       "pinyin": "tǐ xiàn",
@@ -5079,17 +4687,6 @@
       "enriched": true,
       "updatedAt": 1777149098695,
       "createdAt": 1777140762860
-    },
-    {
-      "id": "体面",
-      "hanzi": "体面",
-      "pinyin": "tǐ miàn",
-      "pinyinToneless": "ti mian",
-      "meaning": "dignidad / decoro / respeto",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777392688181
     },
     {
       "id": "体验",
@@ -5345,15 +4942,6 @@
       "createdAt": 1777140762888
     },
     {
-      "id": "侵犯",
-      "hanzi": "侵犯",
-      "meaning": "violar / infringir / transgredir",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762660
-    },
-    {
       "id": "侵略",
       "hanzi": "侵略",
       "pinyin": "qīn lüè",
@@ -5607,15 +5195,6 @@
       "createdAt": 1777140762914
     },
     {
-      "id": "修复",
-      "hanzi": "修复",
-      "meaning": "restaurar / reparar / remediar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762663
-    },
-    {
       "id": "修正",
       "hanzi": "修正",
       "pinyin": "xiū zhèng",
@@ -5713,15 +5292,6 @@
       "enriched": true,
       "updatedAt": 1777149099282,
       "createdAt": 1777140762925
-    },
-    {
-      "id": "借着",
-      "hanzi": "借着",
-      "meaning": "aprovechando / usando / mediante",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762666
     },
     {
       "id": "借钱",
@@ -5856,15 +5426,6 @@
       "createdAt": 1777140762939
     },
     {
-      "id": "偏好",
-      "hanzi": "偏好",
-      "meaning": "preferencia / inclinación / gusto",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762668
-    },
-    {
       "id": "偏移",
       "hanzi": "偏移",
       "pinyin": "piān yí",
@@ -5896,15 +5457,6 @@
       "enriched": true,
       "updatedAt": 1777149099462,
       "createdAt": 1777140762942
-    },
-    {
-      "id": "做出",
-      "hanzi": "做出",
-      "meaning": "realizar / hacer / producir",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762669
     },
     {
       "id": "做成",
@@ -6039,24 +5591,6 @@
       "createdAt": 1777140762957
     },
     {
-      "id": "催泪",
-      "hanzi": "催泪",
-      "meaning": "lacrimógeno / que causa llanto / emotivo",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762671
-    },
-    {
-      "id": "催泪瓦斯",
-      "hanzi": "催泪瓦斯",
-      "meaning": "gas lacrimógeno / gas irritante / químico",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762671
-    },
-    {
       "id": "催生",
       "hanzi": "催生",
       "pinyin": "cuī shēng",
@@ -6110,15 +5644,6 @@
       "enriched": true,
       "updatedAt": 1777149099529,
       "createdAt": 1777140762963
-    },
-    {
-      "id": "允许",
-      "hanzi": "允许",
-      "meaning": "permitir / autorizar / consentir",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762672
     },
     {
       "id": "元素",
@@ -6207,15 +5732,6 @@
       "enriched": true,
       "updatedAt": 1777149099546,
       "createdAt": 1777140762973
-    },
-    {
-      "id": "先机",
-      "hanzi": "先机",
-      "meaning": "Toma la iniciativa",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234762674,
-      "createdAt": 1777234762674
     },
     {
       "id": "先点",
@@ -6315,15 +5831,6 @@
       "enriched": true,
       "updatedAt": 1777149099595,
       "createdAt": 1777140762982
-    },
-    {
-      "id": "免于",
-      "hanzi": "免于",
-      "meaning": "evitar / librar de / eximir",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762675
     },
     {
       "id": "免受",
@@ -6456,15 +5963,6 @@
       "enriched": true,
       "updatedAt": 1777149099647,
       "createdAt": 1777140762994
-    },
-    {
-      "id": "全球性",
-      "hanzi": "全球性",
-      "meaning": "global / mundial / internacional",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762677
     },
     {
       "id": "全盘否定",
@@ -6632,15 +6130,6 @@
       "createdAt": 1777140763012
     },
     {
-      "id": "公式",
-      "hanzi": "公式",
-      "meaning": "fórmula / ecuación / expresión",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762679
-    },
-    {
       "id": "公正",
       "hanzi": "公正",
       "pinyin": "gōng zhèng",
@@ -6650,15 +6139,6 @@
       "enriched": true,
       "updatedAt": 1777149099729,
       "createdAt": 1777140763013
-    },
-    {
-      "id": "公民",
-      "hanzi": "公民",
-      "meaning": "ciudadano / habitante / residente",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762680
     },
     {
       "id": "公职",
@@ -7046,15 +6526,6 @@
       "createdAt": 1777140763055
     },
     {
-      "id": "内耗",
-      "hanzi": "内耗",
-      "meaning": "desgaste interno / conflicto / fricción",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762686
-    },
-    {
       "id": "内部",
       "hanzi": "内部",
       "pinyin": "nèi bù",
@@ -7319,15 +6790,6 @@
       "createdAt": 1777140763080
     },
     {
-      "id": "冰凉",
-      "hanzi": "冰凉",
-      "meaning": "helado / frío / gélido",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762690
-    },
-    {
       "id": "冰山一角",
       "hanzi": "冰山一角",
       "pinyin": "bīng shān yī jiǎo",
@@ -7482,15 +6944,6 @@
       "createdAt": 1777140763097
     },
     {
-      "id": "冻绝",
-      "hanzi": "冻绝",
-      "meaning": "congelar / paralizar / detener",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762692
-    },
-    {
       "id": "净利润",
       "hanzi": "净利润",
       "pinyin": "jìng lì rùn",
@@ -7522,15 +6975,6 @@
       "enriched": true,
       "updatedAt": 1777149100046,
       "createdAt": 1777140763101
-    },
-    {
-      "id": "凌驾于",
-      "hanzi": "凌驾于",
-      "meaning": "prevalecer / dominar / superar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762693
     },
     {
       "id": "减压",
@@ -7610,15 +7054,6 @@
       "createdAt": 1777140763110
     },
     {
-      "id": "几十个",
-      "hanzi": "几十个",
-      "meaning": "decenas / varios / muchos",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762694
-    },
-    {
       "id": "几十分钟",
       "hanzi": "几十分钟",
       "pinyin": "jǐ shí fēn zhōng",
@@ -7650,17 +7085,6 @@
       "enriched": true,
       "updatedAt": 1777149100095,
       "createdAt": 1777140763122
-    },
-    {
-      "id": "几千公里",
-      "hanzi": "几千公里",
-      "pinyin": "jǐ qiān gōng lǐ",
-      "pinyinToneless": "ji qian gong li",
-      "meaning": "miles de kilómetros",
-      "source": "reader",
-      "enriched": false,
-      "updatedAt": 1777320675590,
-      "createdAt": 1777320675590
     },
     {
       "id": "几块",
@@ -7795,17 +7219,6 @@
       "createdAt": 1777140763153
     },
     {
-      "id": "出发",
-      "hanzi": "出发",
-      "pinyin": "chū fā",
-      "pinyinToneless": "chu fa",
-      "meaning": "partir / salir / iniciar",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777135740128
-    },
-    {
       "id": "出口",
       "hanzi": "出口",
       "pinyin": "chū kǒu",
@@ -7815,15 +7228,6 @@
       "enriched": true,
       "updatedAt": 1777149100146,
       "createdAt": 1777140763154
-    },
-    {
-      "id": "出售",
-      "hanzi": "出售",
-      "meaning": "vender / poner a la venta / comercializar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762697
     },
     {
       "id": "出差",
@@ -7846,17 +7250,6 @@
       "enriched": true,
       "updatedAt": 1777149100146,
       "createdAt": 1777140763156
-    },
-    {
-      "id": "出牌",
-      "hanzi": "出牌",
-      "pinyin": "chū pái",
-      "pinyinToneless": "chu pai",
-      "meaning": "juega tus cartas",
-      "source": "reader",
-      "enriched": false,
-      "updatedAt": 1777398009001,
-      "createdAt": 1777398009001
     },
     {
       "id": "出现",
@@ -8013,15 +7406,6 @@
       "createdAt": 1777140763174
     },
     {
-      "id": "分配",
-      "hanzi": "分配",
-      "meaning": "distribuir / asignar / repartir",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762700
-    },
-    {
       "id": "分配机制",
       "hanzi": "分配机制",
       "pinyin": "fēn pèi jī zhì",
@@ -8121,17 +7505,6 @@
       "createdAt": 1777140763184
     },
     {
-      "id": "划时代",
-      "hanzi": "划时代",
-      "pinyin": "huà shí dài",
-      "pinyinToneless": "hua shi dai",
-      "meaning": "revolucionario / innovador / histórico",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777320624903
-    },
-    {
       "id": "列强",
       "hanzi": "列强",
       "pinyin": "liè qiáng",
@@ -8165,15 +7538,6 @@
       "createdAt": 1777140763189
     },
     {
-      "id": "创下",
-      "hanzi": "创下",
-      "meaning": "establecer / crear / fundar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762702
-    },
-    {
       "id": "创世神",
       "hanzi": "创世神",
       "pinyin": "chuàng shì shén",
@@ -8183,17 +7547,6 @@
       "enriched": true,
       "updatedAt": 1777149100263,
       "createdAt": 1777140763190
-    },
-    {
-      "id": "创伤",
-      "hanzi": "创伤",
-      "pinyin": "chuāng shāng",
-      "pinyinToneless": "chuang shang",
-      "meaning": "herida / trauma / lesión",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777397358768
     },
     {
       "id": "创始人",
@@ -8284,15 +7637,6 @@
       "createdAt": 1777140763198
     },
     {
-      "id": "判定",
-      "hanzi": "判定",
-      "meaning": "determinar / juzgar / decidir",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762704
-    },
-    {
       "id": "判断",
       "hanzi": "判断",
       "pinyin": "pàn duàn",
@@ -8302,17 +7646,6 @@
       "enriched": true,
       "updatedAt": 1777149100296,
       "createdAt": 1777140763200
-    },
-    {
-      "id": "利亚",
-      "hanzi": "利亚",
-      "pinyin": "lì yà",
-      "pinyinToneless": "li ya",
-      "meaning": "Lía / Lia / nombre propio",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777320154627
     },
     {
       "id": "利润",
@@ -8590,17 +7923,6 @@
       "createdAt": 1777140763231
     },
     {
-      "id": "刻板",
-      "hanzi": "刻板",
-      "pinyin": "kè bǎn",
-      "pinyinToneless": "ke ban",
-      "meaning": "rígido / estereotipado / inflexible",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777398168943,
-      "createdAt": 1777398015275
-    },
-    {
       "id": "削减",
       "hanzi": "削减",
       "pinyin": "xuē jiǎn",
@@ -8744,15 +8066,6 @@
       "createdAt": 1777140763249
     },
     {
-      "id": "剥夺",
-      "hanzi": "剥夺",
-      "meaning": "privar / despojar / quitar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762709
-    },
-    {
       "id": "剥离",
       "hanzi": "剥离",
       "pinyin": "bāo lí",
@@ -8773,15 +8086,6 @@
       "enriched": true,
       "updatedAt": 1777149100463,
       "createdAt": 1777140763251
-    },
-    {
-      "id": "剧痛",
-      "hanzi": "剧痛",
-      "meaning": "dolor intenso / dolor agudo / sufrimiento",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762710
     },
     {
       "id": "副",
@@ -9213,15 +8517,6 @@
       "createdAt": 1777140763304
     },
     {
-      "id": "包容性",
-      "hanzi": "包容性",
-      "meaning": "inclusividad / aceptación / diversidad",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762716
-    },
-    {
       "id": "包括",
       "hanzi": "包括",
       "pinyin": "bāo kuò",
@@ -9253,15 +8548,6 @@
       "enriched": true,
       "updatedAt": 1777149100646,
       "createdAt": 1777140763308
-    },
-    {
-      "id": "化解",
-      "hanzi": "化解",
-      "meaning": "resolver / deshacer / mitigar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762717
     },
     {
       "id": "北京",
@@ -9372,24 +8658,6 @@
       "enriched": true,
       "updatedAt": 1777149100696,
       "createdAt": 1777140763322
-    },
-    {
-      "id": "医疗",
-      "hanzi": "医疗",
-      "meaning": "atención médica / sanidad / salud",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762719
-    },
-    {
-      "id": "医疗系统",
-      "hanzi": "医疗系统",
-      "meaning": "sistema de salud / atención médica / sanidad",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762719
     },
     {
       "id": "十万八千里",
@@ -9612,17 +8880,6 @@
       "createdAt": 1777140763348
     },
     {
-      "id": "单边",
-      "hanzi": "单边",
-      "pinyin": "dān biān",
-      "pinyinToneless": "dan bian",
-      "meaning": "unilateral / de un solo lado / asimétrico",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777320684736
-    },
-    {
       "id": "卖",
       "hanzi": "卖",
       "pinyin": "mài",
@@ -9698,15 +8955,6 @@
       "enriched": true,
       "updatedAt": 1777149100847,
       "createdAt": 1777140763357
-    },
-    {
-      "id": "占多数",
-      "hanzi": "占多数",
-      "meaning": "ser mayoría / dominar / prevalecer",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762725
     },
     {
       "id": "占据",
@@ -10468,17 +9716,6 @@
       "createdAt": 1777140763448
     },
     {
-      "id": "反复强调",
-      "hanzi": "反复强调",
-      "pinyin": "fǎn fù qiáng diào",
-      "pinyinToneless": "fan fu qiang diao",
-      "meaning": "reiterar / enfatizar / insistir",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777398168943,
-      "createdAt": 1777398067346
-    },
-    {
       "id": "反对",
       "hanzi": "反对",
       "pinyin": "fǎn duì",
@@ -10521,17 +9758,6 @@
       "enriched": true,
       "updatedAt": 1777149101212,
       "createdAt": 1777140763454
-    },
-    {
-      "id": "反弹",
-      "hanzi": "反弹",
-      "pinyin": "fǎn tán",
-      "pinyinToneless": "fan tan",
-      "meaning": "rebote / retroceso / reacción",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777398168943,
-      "createdAt": 1777398049195
     },
     {
       "id": "反思",
@@ -10611,15 +9837,6 @@
       "createdAt": 1777140763463
     },
     {
-      "id": "反革命",
-      "hanzi": "反革命",
-      "meaning": "contrarrevolucionario / anti-revolucionario / opositor",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762738
-    },
-    {
       "id": "反驳",
       "hanzi": "反驳",
       "pinyin": "fǎn bó",
@@ -10629,15 +9846,6 @@
       "enriched": true,
       "updatedAt": 1777149101245,
       "createdAt": 1777140763464
-    },
-    {
-      "id": "发不出",
-      "hanzi": "发不出",
-      "meaning": "No puedo enviarlo",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234762739,
-      "createdAt": 1777234762739
     },
     {
       "id": "发凉",
@@ -10816,15 +10024,6 @@
       "createdAt": 1777140763491
     },
     {
-      "id": "受到",
-      "hanzi": "受到",
-      "meaning": "recibir / ser afectado / experimentar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762741
-    },
-    {
       "id": "受害者",
       "hanzi": "受害者",
       "pinyin": "shòu hài zhě",
@@ -10966,15 +10165,6 @@
       "enriched": true,
       "updatedAt": 1777149101380,
       "createdAt": 1777140770693
-    },
-    {
-      "id": "变量",
-      "hanzi": "变量",
-      "meaning": "variable / cambio / factor",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762743
     },
     {
       "id": "叙事",
@@ -11747,15 +10937,6 @@
       "createdAt": 1777140763603
     },
     {
-      "id": "同理",
-      "hanzi": "同理",
-      "meaning": "empatía / comprensión / identificación",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762753
-    },
-    {
       "id": "名字",
       "hanzi": "名字",
       "pinyin": "míng zì",
@@ -12031,26 +11212,6 @@
       "createdAt": 1777140763638
     },
     {
-      "id": "启发性",
-      "hanzi": "启发性",
-      "pinyin": "qǐ fā xìng",
-      "pinyinToneless": "qi fa xing",
-      "meaning": "inspirador / estimulante / motivador",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777319458187
-    },
-    {
-      "id": "吸引力",
-      "hanzi": "吸引力",
-      "meaning": "atractivo / magnetismo / interés",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762757
-    },
-    {
       "id": "吸血",
       "hanzi": "吸血",
       "pinyin": "xī xuè",
@@ -12148,15 +11309,6 @@
       "enriched": true,
       "updatedAt": 1777149101963,
       "createdAt": 1777140763649
-    },
-    {
-      "id": "呼吁",
-      "hanzi": "呼吁",
-      "meaning": "apelación / llamado / solicitud",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762759
     },
     {
       "id": "呼吸",
@@ -12346,15 +11498,6 @@
       "createdAt": 1777140763674
     },
     {
-      "id": "哪",
-      "hanzi": "哪",
-      "meaning": "cuál / qué / qué cosa",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762761
-    },
-    {
       "id": "哪一人能",
       "hanzi": "哪一人能",
       "pinyin": "nǎ yī rén néng",
@@ -12509,17 +11652,6 @@
       "createdAt": 1777140763693
     },
     {
-      "id": "嘱咐",
-      "hanzi": "嘱咐",
-      "pinyin": "zhǔ fù",
-      "pinyinToneless": "zhu fu",
-      "meaning": "aconsejar / advertir / instruir",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777319446936
-    },
-    {
       "id": "器官",
       "hanzi": "器官",
       "pinyin": "qì guān",
@@ -12542,15 +11674,6 @@
       "createdAt": 1777140763696
     },
     {
-      "id": "噪音",
-      "hanzi": "噪音",
-      "meaning": "ruido / sonido / estruendo",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762764
-    },
-    {
       "id": "四人",
       "hanzi": "四人",
       "pinyin": "sì rén",
@@ -12571,17 +11694,6 @@
       "enriched": true,
       "updatedAt": 1777149102146,
       "createdAt": 1777140763698
-    },
-    {
-      "id": "四平八稳",
-      "hanzi": "四平八稳",
-      "pinyin": "sì píng bā wěn",
-      "pinyinToneless": "si ping ba wen",
-      "meaning": "todo esta estable",
-      "source": "reader",
-      "enriched": false,
-      "updatedAt": 1777319440068,
-      "createdAt": 1777319440068
     },
     {
       "id": "四肢",
@@ -12802,15 +11914,6 @@
       "enriched": true,
       "updatedAt": 1777149102229,
       "createdAt": 1777140763727
-    },
-    {
-      "id": "围城",
-      "hanzi": "围城",
-      "meaning": "ciudad amurallada / ciudad cercada / fortaleza",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762767
     },
     {
       "id": "围绕",
@@ -13198,15 +12301,6 @@
       "createdAt": 1777140763777
     },
     {
-      "id": "在蒂儿",
-      "hanzi": "在蒂儿",
-      "meaning": "en Tír / en Tír / nombre propio",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762773
-    },
-    {
       "id": "地",
       "hanzi": "地",
       "pinyin": "dì",
@@ -13238,17 +12332,6 @@
       "enriched": true,
       "updatedAt": 1777149102412,
       "createdAt": 1777140763781
-    },
-    {
-      "id": "地区",
-      "hanzi": "地区",
-      "pinyin": "dì qū",
-      "pinyinToneless": "di qu",
-      "meaning": "región / área / zona",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777320777208
     },
     {
       "id": "地区冲突",
@@ -13471,15 +12554,6 @@
       "createdAt": 1777140763810
     },
     {
-      "id": "坏死",
-      "hanzi": "坏死",
-      "meaning": "necrosis / muerte celular / daño",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762777
-    },
-    {
       "id": "坚信",
       "hanzi": "坚信",
       "pinyin": "jiān xìn",
@@ -13511,15 +12585,6 @@
       "enriched": true,
       "updatedAt": 1777149102528,
       "createdAt": 1777140763814
-    },
-    {
-      "id": "坚持",
-      "hanzi": "坚持",
-      "meaning": "persistir / mantener / sostener",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762778
     },
     {
       "id": "坚韧性",
@@ -13588,15 +12653,6 @@
       "createdAt": 1777140763823
     },
     {
-      "id": "坦诚",
-      "hanzi": "坦诚",
-      "meaning": "sinceridad / honestidad / franqueza",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762779
-    },
-    {
       "id": "垄断",
       "hanzi": "垄断",
       "pinyin": "lǒng duàn",
@@ -13606,15 +12662,6 @@
       "enriched": true,
       "updatedAt": 1777149102546,
       "createdAt": 1777140763824
-    },
-    {
-      "id": "型",
-      "hanzi": "型",
-      "meaning": "tipo / modelo / forma",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762779
     },
     {
       "id": "埃斯特角",
@@ -13648,15 +12695,6 @@
       "enriched": true,
       "updatedAt": 1777149102563,
       "createdAt": 1777140763828
-    },
-    {
-      "id": "城市",
-      "hanzi": "城市",
-      "meaning": "metrópoli / urbe / ciudad",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762780
     },
     {
       "id": "基于",
@@ -13912,17 +12950,6 @@
       "createdAt": 1777140763861
     },
     {
-      "id": "声明",
-      "hanzi": "声明",
-      "pinyin": "shēng míng",
-      "pinyinToneless": "sheng ming",
-      "meaning": "declaración / aviso / comunicado",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777319443055
-    },
-    {
       "id": "声纳",
       "hanzi": "声纳",
       "pinyin": "shēng nà",
@@ -13943,15 +12970,6 @@
       "enriched": true,
       "updatedAt": 1777149102679,
       "createdAt": 1777140763864
-    },
-    {
-      "id": "处于",
-      "hanzi": "处于",
-      "meaning": "estar en / encontrarse en / situarse en",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762785
     },
     {
       "id": "处理",
@@ -13985,15 +13003,6 @@
       "enriched": true,
       "updatedAt": 1777149102696,
       "createdAt": 1777140763868
-    },
-    {
-      "id": "复苏",
-      "hanzi": "复苏",
-      "meaning": "recuperación / resurgimiento / renacimiento",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762786
     },
     {
       "id": "外",
@@ -14040,17 +13049,6 @@
       "createdAt": 1777140763875
     },
     {
-      "id": "外交辞令",
-      "hanzi": "外交辞令",
-      "pinyin": "wài jiāo cí lìng",
-      "pinyinToneless": "wai jiao ci ling",
-      "meaning": "diplomacia / lenguaje diplomático / cortesía",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777398168943,
-      "createdAt": 1777398068832
-    },
-    {
       "id": "外卖",
       "hanzi": "外卖",
       "pinyin": "wài mài",
@@ -14060,17 +13058,6 @@
       "enriched": true,
       "updatedAt": 1777149102713,
       "createdAt": 1777140763876
-    },
-    {
-      "id": "外喝",
-      "hanzi": "外喝",
-      "pinyin": "wài hē",
-      "pinyinToneless": "wai he",
-      "meaning": "bebida externa / consumo externo / beber fuera",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777320676089
     },
     {
       "id": "外太空",
@@ -14194,15 +13181,6 @@
       "createdAt": 1777140763893
     },
     {
-      "id": "多元",
-      "hanzi": "多元",
-      "meaning": "plural / diverso / múltiple",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762788
-    },
-    {
       "id": "多元论",
       "hanzi": "多元论",
       "pinyin": "duō yuán lùn",
@@ -14256,17 +13234,6 @@
       "enriched": true,
       "updatedAt": 1777149102795,
       "createdAt": 1777140763899
-    },
-    {
-      "id": "多方",
-      "hanzi": "多方",
-      "pinyin": "duō fāng",
-      "pinyinToneless": "duo fang",
-      "meaning": "múltiples partes / varios lados / diversas fuentes",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777135428423
     },
     {
       "id": "多普勒",
@@ -14489,15 +13456,6 @@
       "createdAt": 1777140763927
     },
     {
-      "id": "大得多",
-      "hanzi": "大得多",
-      "meaning": "mucho mas grande",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234762792,
-      "createdAt": 1777234762792
-    },
-    {
       "id": "大战",
       "hanzi": "大战",
       "pinyin": "dà zhàn",
@@ -14630,15 +13588,6 @@
       "createdAt": 1777140763946
     },
     {
-      "id": "大错特错",
-      "hanzi": "大错特错",
-      "meaning": "gran error / error grave / equivocación",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762794
-    },
-    {
       "id": "大陆",
       "hanzi": "大陆",
       "pinyin": "dà lù",
@@ -14738,15 +13687,6 @@
       "createdAt": 1777140763960
     },
     {
-      "id": "天眼",
-      "hanzi": "天眼",
-      "meaning": "Ojo del cielo",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234762796,
-      "createdAt": 1777234762796
-    },
-    {
       "id": "太",
       "hanzi": "太",
       "pinyin": "tài",
@@ -14767,15 +13707,6 @@
       "enriched": true,
       "updatedAt": 1777149102979,
       "createdAt": 1777140763964
-    },
-    {
-      "id": "太重",
-      "hanzi": "太重",
-      "meaning": "demasiado pesado / excesivo / muy pesado",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762797
     },
     {
       "id": "太阳神",
@@ -14820,15 +13751,6 @@
       "enriched": true,
       "updatedAt": 1777149102996,
       "createdAt": 1777140763970
-    },
-    {
-      "id": "失业",
-      "hanzi": "失业",
-      "meaning": "desempleo / falta de trabajo / inactividad",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762798
     },
     {
       "id": "失业率",
@@ -14895,15 +13817,6 @@
       "enriched": true,
       "updatedAt": 1777149103029,
       "createdAt": 1777140763977
-    },
-    {
-      "id": "失调",
-      "hanzi": "失调",
-      "meaning": "desajuste / desequilibrio / desorden",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762799
     },
     {
       "id": "失败",
@@ -14983,15 +13896,6 @@
       "createdAt": 1777140763989
     },
     {
-      "id": "头部",
-      "hanzi": "头部",
-      "meaning": "cabeza / parte superior / cráneo",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762801
-    },
-    {
       "id": "夸张",
       "hanzi": "夸张",
       "pinyin": "kuā zhāng",
@@ -15034,15 +13938,6 @@
       "enriched": true,
       "updatedAt": 1777149103063,
       "createdAt": 1777140763994
-    },
-    {
-      "id": "契约",
-      "hanzi": "契约",
-      "meaning": "contrato / acuerdo / pacto",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762802
     },
     {
       "id": "奔途",
@@ -15485,24 +14380,6 @@
       "createdAt": 1777140764059
     },
     {
-      "id": "孤独",
-      "hanzi": "孤独",
-      "meaning": "soledad / aislamiento / tristeza",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762808
-    },
-    {
-      "id": "孤股",
-      "hanzi": "孤股",
-      "meaning": "acción solitaria / acción individual / solo",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762808
-    },
-    {
       "id": "孤身一人",
       "hanzi": "孤身一人",
       "pinyin": "gū shēn yī rén",
@@ -15611,15 +14488,6 @@
       "enriched": true,
       "updatedAt": 1777149103312,
       "createdAt": 1777140764074
-    },
-    {
-      "id": "安宁",
-      "hanzi": "安宁",
-      "meaning": "paz / tranquilidad / serenidad",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762810
     },
     {
       "id": "安达曼",
@@ -15765,15 +14633,6 @@
       "createdAt": 1777140764095
     },
     {
-      "id": "定位",
-      "hanzi": "定位",
-      "meaning": "localización / posición / determinación",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762812
-    },
-    {
       "id": "定制",
       "hanzi": "定制",
       "pinyin": "dìng zhì",
@@ -15849,17 +14708,6 @@
       "enriched": true,
       "updatedAt": 1777149103413,
       "createdAt": 1777140764104
-    },
-    {
-      "id": "实打实",
-      "hanzi": "实打实",
-      "pinyin": "shí dǎ shí",
-      "pinyinToneless": "shi da shi",
-      "meaning": "tangible / real / concreto",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777398168943,
-      "createdAt": 1777397877698
     },
     {
       "id": "实施",
@@ -16049,15 +14897,6 @@
       "createdAt": 1777140764131
     },
     {
-      "id": "宣言",
-      "hanzi": "宣言",
-      "meaning": "declaración / manifiesto / aviso",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762817
-    },
-    {
       "id": "宪法",
       "hanzi": "宪法",
       "pinyin": "xiàn fǎ",
@@ -16190,15 +15029,6 @@
       "createdAt": 1777140764150
     },
     {
-      "id": "寡头",
-      "hanzi": "寡头",
-      "meaning": "oligarca / magnate / líder",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762819
-    },
-    {
       "id": "对",
       "hanzi": "对",
       "pinyin": "duì",
@@ -16274,28 +15104,6 @@
       "enriched": true,
       "updatedAt": 1777149103597,
       "createdAt": 1777140764161
-    },
-    {
-      "id": "对方",
-      "hanzi": "对方",
-      "pinyin": "duì fāng",
-      "pinyinToneless": "dui fang",
-      "meaning": "contraparte / oponente / adversario",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777398168943,
-      "createdAt": 1777398044667
-    },
-    {
-      "id": "对比",
-      "hanzi": "对比",
-      "pinyin": "duì bǐ",
-      "pinyinToneless": "dui bi",
-      "meaning": "comparación / contraste / diferenciación",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777398168943,
-      "createdAt": 1777398027374
     },
     {
       "id": "对照",
@@ -16463,15 +15271,6 @@
       "createdAt": 1777140764186
     },
     {
-      "id": "封建主义",
-      "hanzi": "封建主义",
-      "meaning": "feudalismo / sistema feudal / aristocracia",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762823
-    },
-    {
       "id": "封控",
       "hanzi": "封控",
       "pinyin": "fēng kòng",
@@ -16505,17 +15304,6 @@
       "createdAt": 1777140764191
     },
     {
-      "id": "射程",
-      "hanzi": "射程",
-      "pinyin": "shè chéng",
-      "pinyinToneless": "she cheng",
-      "meaning": "alcance / distancia / rango",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777320659046
-    },
-    {
       "id": "将",
       "hanzi": "将",
       "pinyin": "jiāng",
@@ -16536,15 +15324,6 @@
       "enriched": true,
       "updatedAt": 1777149103680,
       "createdAt": 1777140764194
-    },
-    {
-      "id": "尊严",
-      "hanzi": "尊严",
-      "meaning": "dignidad / respeto / honor",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762824
     },
     {
       "id": "小事",
@@ -16622,15 +15401,6 @@
       "enriched": true,
       "updatedAt": 1777149103728,
       "createdAt": 1777140764206
-    },
-    {
-      "id": "尖叫声",
-      "hanzi": "尖叫声",
-      "meaning": "grito / chillido / alarido",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762825
     },
     {
       "id": "尖端",
@@ -16754,17 +15524,6 @@
       "createdAt": 1777140764224
     },
     {
-      "id": "就是指",
-      "hanzi": "就是指",
-      "pinyin": "jiù shì zhǐ",
-      "pinyinToneless": "jiu shi zhi",
-      "meaning": "se refiere a / significa / apunta a",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777320159030
-    },
-    {
       "id": "就是说",
       "hanzi": "就是说",
       "pinyin": "jiù shì shuō",
@@ -16796,15 +15555,6 @@
       "enriched": true,
       "updatedAt": 1777149103779,
       "createdAt": 1777140764229
-    },
-    {
-      "id": "尼斯",
-      "hanzi": "尼斯",
-      "meaning": "Niza / ciudad / lugar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762828
     },
     {
       "id": "尽",
@@ -16915,15 +15665,6 @@
       "enriched": true,
       "updatedAt": 1777149103828,
       "createdAt": 1777140764249
-    },
-    {
-      "id": "屏蔽",
-      "hanzi": "屏蔽",
-      "meaning": "bloqueo / filtrado / aislamiento",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762831
     },
     {
       "id": "展开",
@@ -17091,15 +15832,6 @@
       "createdAt": 1777140764274
     },
     {
-      "id": "崩盘",
-      "hanzi": "崩盘",
-      "meaning": "colapso / caída / desplome",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762833
-    },
-    {
       "id": "嵌入",
       "hanzi": "嵌入",
       "pinyin": "qiàn rù",
@@ -17197,15 +15929,6 @@
       "enriched": true,
       "updatedAt": 1777149103929,
       "createdAt": 1777140764289
-    },
-    {
-      "id": "工人",
-      "hanzi": "工人",
-      "meaning": "trabajador / obrero / empleado",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762835
     },
     {
       "id": "工作",
@@ -17428,15 +16151,6 @@
       "createdAt": 1777140764321
     },
     {
-      "id": "市场主体",
-      "hanzi": "市场主体",
-      "meaning": "entidades del mercado",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234762838,
-      "createdAt": 1777234762838
-    },
-    {
       "id": "布",
       "hanzi": "布",
       "pinyin": "bù",
@@ -17446,15 +16160,6 @@
       "enriched": true,
       "updatedAt": 1777149104029,
       "createdAt": 1777140764322
-    },
-    {
-      "id": "布爱诺",
-      "hanzi": "布爱诺",
-      "meaning": "Buenos Aires / ciudad / capital",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762839
     },
     {
       "id": "布里克",
@@ -17501,15 +16206,6 @@
       "createdAt": 1777140764328
     },
     {
-      "id": "带上",
-      "hanzi": "带上",
-      "meaning": "llevar / portar / cargar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762840
-    },
-    {
       "id": "带来",
       "hanzi": "带来",
       "pinyin": "dài lái",
@@ -17530,15 +16226,6 @@
       "enriched": true,
       "updatedAt": 1777149104046,
       "createdAt": 1777140764331
-    },
-    {
-      "id": "常居",
-      "hanzi": "常居",
-      "meaning": "residencia / hogar / vivienda",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762840
     },
     {
       "id": "常常",
@@ -17640,17 +16327,6 @@
       "createdAt": 1777140764346
     },
     {
-      "id": "干扁",
-      "hanzi": "干扁",
-      "pinyin": "gān biǎn",
-      "pinyinToneless": "gan bian",
-      "meaning": "seco / deshidratado / duro",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777319435257
-    },
-    {
       "id": "干扰",
       "hanzi": "干扰",
       "pinyin": "gān rǎo",
@@ -17671,17 +16347,6 @@
       "enriched": true,
       "updatedAt": 1777149104096,
       "createdAt": 1777140764349
-    },
-    {
-      "id": "干瘪",
-      "hanzi": "干瘪",
-      "pinyin": "gān biě",
-      "pinyinToneless": "gan bie",
-      "meaning": "marchito / seco / deshidratado",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777398168943,
-      "createdAt": 1777397959557
     },
     {
       "id": "干粮",
@@ -17792,15 +16457,6 @@
       "enriched": true,
       "updatedAt": 1777149104130,
       "createdAt": 1777140764363
-    },
-    {
-      "id": "平静",
-      "hanzi": "平静",
-      "meaning": "calma / tranquilidad / serenidad",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762843
     },
     {
       "id": "年",
@@ -18155,15 +16811,6 @@
       "createdAt": 1777140764429
     },
     {
-      "id": "废点",
-      "hanzi": "废点",
-      "meaning": "Punto de residuos",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234762849,
-      "createdAt": 1777234762849
-    },
-    {
       "id": "度",
       "hanzi": "度",
       "pinyin": "dù",
@@ -18272,24 +16919,6 @@
       "enriched": true,
       "updatedAt": 1777149104346,
       "createdAt": 1777140764446
-    },
-    {
-      "id": "建设性",
-      "hanzi": "建设性",
-      "meaning": "constructivo / positivo / útil",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762852
-    },
-    {
-      "id": "开发",
-      "hanzi": "开发",
-      "meaning": "desarrollo / explotación / crecimiento",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762852
     },
     {
       "id": "开启",
@@ -18435,15 +17064,6 @@
       "createdAt": 1777140764467
     },
     {
-      "id": "引入",
-      "hanzi": "引入",
-      "meaning": "introducir / traer / presentar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762855
-    },
-    {
       "id": "引出",
       "hanzi": "引出",
       "pinyin": "yǐn chū",
@@ -18543,15 +17163,6 @@
       "createdAt": 1777140764483
     },
     {
-      "id": "张力",
-      "hanzi": "张力",
-      "meaning": "tensión / estrés / presión",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762857
-    },
-    {
       "id": "张表上",
       "hanzi": "张表上",
       "pinyin": "zhāng biǎo shàng",
@@ -18607,26 +17218,6 @@
       "createdAt": 1777140770640
     },
     {
-      "id": "弱点",
-      "hanzi": "弱点",
-      "meaning": "debilidad / vulnerabilidad / defecto",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762858
-    },
-    {
-      "id": "弹回去",
-      "hanzi": "弹回去",
-      "pinyin": "tán huí qù",
-      "pinyinToneless": "tan hui qu",
-      "meaning": "devolver / rebotar / regresar",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777398168943,
-      "createdAt": 1777398053515
-    },
-    {
       "id": "弹射器",
       "hanzi": "弹射器",
       "pinyin": "tán shè qì",
@@ -18647,17 +17238,6 @@
       "enriched": true,
       "updatedAt": 1777149104479,
       "createdAt": 1777140764493
-    },
-    {
-      "id": "弹簧",
-      "hanzi": "弹簧",
-      "pinyin": "tán huáng",
-      "pinyinToneless": "tan huang",
-      "meaning": "resorte / muelle / resortera",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777319523969
     },
     {
       "id": "弹药库",
@@ -18726,15 +17306,6 @@
       "createdAt": 1777140764504
     },
     {
-      "id": "强占",
-      "hanzi": "强占",
-      "meaning": "ocupación / apoderamiento / usurpación",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762860
-    },
-    {
       "id": "强国",
       "hanzi": "强国",
       "pinyin": "qiáng guó",
@@ -18788,15 +17359,6 @@
       "enriched": true,
       "updatedAt": 1777149104528,
       "createdAt": 1777140764512
-    },
-    {
-      "id": "强烈不满",
-      "hanzi": "强烈不满",
-      "meaning": "descontento / insatisfacción / queja",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762861
     },
     {
       "id": "强硬",
@@ -19426,15 +17988,6 @@
       "createdAt": 1777140764609
     },
     {
-      "id": "必要",
-      "hanzi": "必要",
-      "meaning": "necesario / esencial / obligatorio",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762870
-    },
-    {
       "id": "必须",
       "hanzi": "必须",
       "pinyin": "bì xū",
@@ -19644,15 +18197,6 @@
       "createdAt": 1777140764641
     },
     {
-      "id": "性格",
-      "hanzi": "性格",
-      "meaning": "carácter / personalidad / temperamento",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762874
-    },
-    {
       "id": "性能",
       "hanzi": "性能",
       "pinyin": "xìng néng",
@@ -19840,17 +18384,6 @@
       "createdAt": 1777140764671
     },
     {
-      "id": "恰恰相反",
-      "hanzi": "恰恰相反",
-      "pinyin": "qià qià xiāng fǎn",
-      "pinyinToneless": "qia qia xiang fan",
-      "meaning": "De lo contrario",
-      "source": "reader",
-      "enriched": false,
-      "updatedAt": 1777319645006,
-      "createdAt": 1777319645006
-    },
-    {
       "id": "恶劣",
       "hanzi": "恶劣",
       "pinyin": "è liè",
@@ -19893,15 +18426,6 @@
       "enriched": true,
       "updatedAt": 1777149104945,
       "createdAt": 1777140764677
-    },
-    {
-      "id": "悄悄地",
-      "hanzi": "悄悄地",
-      "meaning": "silenciosamente / discretamente / en secreto",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762877
     },
     {
       "id": "悄悄的",
@@ -19968,17 +18492,6 @@
       "enriched": true,
       "updatedAt": 1777149104962,
       "createdAt": 1777140764686
-    },
-    {
-      "id": "悬殊",
-      "hanzi": "悬殊",
-      "pinyin": "xuán shū",
-      "pinyinToneless": "xuan shu",
-      "meaning": "desigualdad / disparidad / diferencia",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777319634845
     },
     {
       "id": "悬浮",
@@ -20069,15 +18582,6 @@
       "createdAt": 1777140764700
     },
     {
-      "id": "情报分析",
-      "hanzi": "情报分析",
-      "meaning": "análisis de inteligencia",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234762879,
-      "createdAt": 1777234762879
-    },
-    {
       "id": "情报机构",
       "hanzi": "情报机构",
       "pinyin": "qíng bào jī gòu",
@@ -20087,15 +18591,6 @@
       "enriched": true,
       "updatedAt": 1777149104996,
       "createdAt": 1777140764703
-    },
-    {
-      "id": "情报系统",
-      "hanzi": "情报系统",
-      "meaning": "sistema de inteligencia",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234762879,
-      "createdAt": 1777234762879
     },
     {
       "id": "情报网络",
@@ -20197,15 +18692,6 @@
       "createdAt": 1777140764719
     },
     {
-      "id": "惨重",
-      "hanzi": "惨重",
-      "meaning": "grave / severo / crítico",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762882
-    },
-    {
       "id": "惩罚",
       "hanzi": "惩罚",
       "pinyin": "chéng fá",
@@ -20259,15 +18745,6 @@
       "enriched": true,
       "updatedAt": 1777149105046,
       "createdAt": 1777140764731
-    },
-    {
-      "id": "想想",
-      "hanzi": "想想",
-      "meaning": "Piensa en ello",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234762883,
-      "createdAt": 1777234762883
     },
     {
       "id": "想想看",
@@ -21227,15 +19704,6 @@
       "createdAt": 1777140764906
     },
     {
-      "id": "执政者",
-      "hanzi": "执政者",
-      "meaning": "gobernante / líder / autoridad",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762896
-    },
-    {
       "id": "执行",
       "hanzi": "执行",
       "pinyin": "zhí xíng",
@@ -21401,15 +19869,6 @@
       "createdAt": 1777140764932
     },
     {
-      "id": "扼杀",
-      "hanzi": "扼杀",
-      "meaning": "sofocar / reprimir / eliminar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762899
-    },
-    {
       "id": "找到",
       "hanzi": "找到",
       "pinyin": "zhǎo dào",
@@ -21520,15 +19979,6 @@
       "createdAt": 1777140764949
     },
     {
-      "id": "技术员",
-      "hanzi": "技术员",
-      "meaning": "técnico / especialista / ingeniero",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762900
-    },
-    {
       "id": "把",
       "hanzi": "把",
       "pinyin": "bǎ",
@@ -21571,15 +20021,6 @@
       "enriched": true,
       "updatedAt": 1777149105746,
       "createdAt": 1777140764957
-    },
-    {
-      "id": "抓取",
-      "hanzi": "抓取",
-      "meaning": "capturar / agarrar / tomar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762901
     },
     {
       "id": "抓获",
@@ -21659,15 +20100,6 @@
       "createdAt": 1777140764971
     },
     {
-      "id": "抗战",
-      "hanzi": "抗战",
-      "meaning": "resistencia / lucha / combate",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762903
-    },
-    {
       "id": "抗拒",
       "hanzi": "抗拒",
       "pinyin": "kàng jù",
@@ -21688,15 +20120,6 @@
       "enriched": true,
       "updatedAt": 1777149105797,
       "createdAt": 1777140764975
-    },
-    {
-      "id": "抗议",
-      "hanzi": "抗议",
-      "meaning": "protesta / manifestación / reclamo",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762903
     },
     {
       "id": "折戟",
@@ -21875,15 +20298,6 @@
       "createdAt": 1777140765011
     },
     {
-      "id": "抱歉",
-      "hanzi": "抱歉",
-      "meaning": "disculpa / perdón / lamento",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762906
-    },
-    {
       "id": "抵不上",
       "hanzi": "抵不上",
       "pinyin": "dǐ bù shàng",
@@ -21895,15 +20309,6 @@
       "createdAt": 1777140765013
     },
     {
-      "id": "抵制",
-      "hanzi": "抵制",
-      "meaning": "boicot / oposición / rechazo",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762906
-    },
-    {
       "id": "抵御",
       "hanzi": "抵御",
       "pinyin": "dǐ yù",
@@ -21913,15 +20318,6 @@
       "enriched": true,
       "updatedAt": 1777149105897,
       "createdAt": 1777140765015
-    },
-    {
-      "id": "抹擦",
-      "hanzi": "抹擦",
-      "meaning": "limpiar / frotar / borrar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762907
     },
     {
       "id": "抹除",
@@ -22166,17 +20562,6 @@
       "createdAt": 1777140765061
     },
     {
-      "id": "拳击赛",
-      "hanzi": "拳击赛",
-      "pinyin": "quán jī sài",
-      "pinyinToneless": "quan ji sai",
-      "meaning": "combate de boxeo",
-      "source": "reader",
-      "enriched": false,
-      "updatedAt": 1777319473607,
-      "createdAt": 1777319473607
-    },
-    {
       "id": "拼",
       "hanzi": "拼",
       "pinyin": "pīn",
@@ -22208,17 +20593,6 @@
       "enriched": true,
       "updatedAt": 1777149106031,
       "createdAt": 1777140765067
-    },
-    {
-      "id": "拿下",
-      "hanzi": "拿下",
-      "pinyin": "ná xià",
-      "pinyinToneless": "na xia",
-      "meaning": "tomar / capturar / conseguir",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777320778318
     },
     {
       "id": "拿出",
@@ -22441,15 +20815,6 @@
       "createdAt": 1777140765114
     },
     {
-      "id": "挣扎",
-      "hanzi": "挣扎",
-      "meaning": "luchar / esforzarse / pelear",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762913
-    },
-    {
       "id": "挣点",
       "hanzi": "挣点",
       "pinyin": "zhèng diǎn",
@@ -22593,15 +20958,6 @@
       "createdAt": 1777140765144
     },
     {
-      "id": "捕捉",
-      "hanzi": "捕捉",
-      "meaning": "atrapar / capturar / cazar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762917
-    },
-    {
       "id": "捕捉到",
       "hanzi": "捕捉到",
       "pinyin": "bǔ zhuō dào",
@@ -22679,17 +21035,6 @@
       "createdAt": 1777140765158
     },
     {
-      "id": "掀",
-      "hanzi": "掀",
-      "pinyin": "xiān",
-      "pinyinToneless": "xian",
-      "meaning": "levantar / alzar / quitar",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777320729245
-    },
-    {
       "id": "掀开",
       "hanzi": "掀开",
       "pinyin": "xiān kāi",
@@ -22765,24 +21110,6 @@
       "enriched": true,
       "updatedAt": 1777149106297,
       "createdAt": 1777140765176
-    },
-    {
-      "id": "排",
-      "hanzi": "排",
-      "meaning": "fila / línea / orden",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762919
-    },
-    {
-      "id": "排他性",
-      "hanzi": "排他性",
-      "meaning": "exclusividad / selectividad / restricción",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762919
     },
     {
       "id": "排斥",
@@ -23170,15 +21497,6 @@
       "createdAt": 1777140765260
     },
     {
-      "id": "描绘出",
-      "hanzi": "描绘出",
-      "meaning": "describir / representar / ilustrar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762924
-    },
-    {
       "id": "描述",
       "hanzi": "描述",
       "pinyin": "miáo shù",
@@ -23221,33 +21539,6 @@
       "enriched": true,
       "updatedAt": 1777149106373,
       "createdAt": 1777140765270
-    },
-    {
-      "id": "提前",
-      "hanzi": "提前",
-      "meaning": "anticipar / adelantar / prever",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762925
-    },
-    {
-      "id": "提取",
-      "hanzi": "提取",
-      "meaning": "extraer / retirar / sacar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762926
-    },
-    {
-      "id": "提尔",
-      "hanzi": "提尔",
-      "meaning": "Tíber / río / lugar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762926
     },
     {
       "id": "握",
@@ -23303,15 +21594,6 @@
       "enriched": true,
       "updatedAt": 1777149106375,
       "createdAt": 1777140765281
-    },
-    {
-      "id": "搏斗",
-      "hanzi": "搏斗",
-      "meaning": "pelea / lucha / combate",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762927
     },
     {
       "id": "搜寻",
@@ -23391,15 +21673,6 @@
       "createdAt": 1777140765297
     },
     {
-      "id": "摄像头",
-      "hanzi": "摄像头",
-      "meaning": "cámara / lente / dispositivo",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762929
-    },
-    {
       "id": "摆脱",
       "hanzi": "摆脱",
       "pinyin": "bǎi tuō",
@@ -23409,15 +21682,6 @@
       "enriched": true,
       "updatedAt": 1777149106377,
       "createdAt": 1777140765299
-    },
-    {
-      "id": "摇摇欲坠",
-      "hanzi": "摇摇欲坠",
-      "meaning": "inestable / tambaleante / a punto de caer",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762929
     },
     {
       "id": "摇杆",
@@ -23462,17 +21726,6 @@
       "enriched": true,
       "updatedAt": 1777149106378,
       "createdAt": 1777140765309
-    },
-    {
-      "id": "摩托",
-      "hanzi": "摩托",
-      "pinyin": "mó tuō",
-      "pinyinToneless": "mo tuo",
-      "meaning": "motocicleta / moto / vehículo",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777320153537
     },
     {
       "id": "摩擦",
@@ -24256,15 +22509,6 @@
       "createdAt": 1777140765472
     },
     {
-      "id": "敢于",
-      "hanzi": "敢于",
-      "meaning": "atreverse a / tener el valor de / osar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762941
-    },
-    {
       "id": "数优",
       "hanzi": "数优",
       "pinyin": "shù yōu",
@@ -24298,15 +22542,6 @@
       "createdAt": 1777140765478
     },
     {
-      "id": "数学公式",
-      "hanzi": "数学公式",
-      "meaning": "fórmula matemática / ecuación / expresión",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762941
-    },
-    {
       "id": "数据",
       "hanzi": "数据",
       "pinyin": "shù jù",
@@ -24316,15 +22551,6 @@
       "enriched": true,
       "updatedAt": 1777149106398,
       "createdAt": 1777140765480
-    },
-    {
-      "id": "数据分析",
-      "hanzi": "数据分析",
-      "meaning": "análisis de datos",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234762942,
-      "createdAt": 1777234762942
     },
     {
       "id": "数据模型",
@@ -24580,15 +22806,6 @@
       "createdAt": 1777140765528
     },
     {
-      "id": "断裂",
-      "hanzi": "断裂",
-      "meaning": "ruptura / quiebre / fractura",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762945
-    },
-    {
       "id": "断言",
       "hanzi": "断言",
       "pinyin": "duàn yán",
@@ -24644,15 +22861,6 @@
       "createdAt": 1777140765538
     },
     {
-      "id": "新兴力量",
-      "hanzi": "新兴力量",
-      "meaning": "fuerza emergente / nuevo poder / potencia nueva",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762947
-    },
-    {
       "id": "新华社",
       "hanzi": "新华社",
       "pinyin": "xīn huá shè",
@@ -24706,15 +22914,6 @@
       "enriched": true,
       "updatedAt": 1777149106408,
       "createdAt": 1777140765548
-    },
-    {
-      "id": "新高",
-      "hanzi": "新高",
-      "meaning": "nuevo récord / máximo / cima",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762948
     },
     {
       "id": "方向",
@@ -24860,15 +23059,6 @@
       "createdAt": 1777140765576
     },
     {
-      "id": "无休止",
-      "hanzi": "无休止",
-      "meaning": "interminable / sin fin / continuo",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762950
-    },
-    {
       "id": "无力感",
       "hanzi": "无力感",
       "pinyin": "wú lì gǎn",
@@ -24924,24 +23114,6 @@
       "createdAt": 1777140765585
     },
     {
-      "id": "无奈",
-      "hanzi": "无奈",
-      "meaning": "no tengo elección",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234762951,
-      "createdAt": 1777234762951
-    },
-    {
-      "id": "无孔不入",
-      "hanzi": "无孔不入",
-      "meaning": "omnipresente / en todas partes / infiltrado",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762952
-    },
-    {
       "id": "无形",
       "hanzi": "无形",
       "pinyin": "wú xíng",
@@ -24973,24 +23145,6 @@
       "enriched": true,
       "updatedAt": 1777154949947,
       "createdAt": 1777154375831
-    },
-    {
-      "id": "无所不能",
-      "hanzi": "无所不能",
-      "meaning": "todopoderoso / capaz de todo / invencible",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762953
-    },
-    {
-      "id": "无政府",
-      "hanzi": "无政府",
-      "meaning": "anarquía / falta de gobierno / desorden",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762953
     },
     {
       "id": "无数",
@@ -25123,15 +23277,6 @@
       "enriched": true,
       "updatedAt": 1777149106433,
       "createdAt": 1777140765614
-    },
-    {
-      "id": "无辜者",
-      "hanzi": "无辜者",
-      "meaning": "inocente / víctima / no culpable",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762955
     },
     {
       "id": "无需",
@@ -25464,15 +23609,6 @@
       "createdAt": 1777140765673
     },
     {
-      "id": "明确提出",
-      "hanzi": "明确提出",
-      "meaning": "proponer claramente / plantear / expresar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762960
-    },
-    {
       "id": "昏迷",
       "hanzi": "昏迷",
       "pinyin": "hūn mí",
@@ -25803,15 +23939,6 @@
       "createdAt": 1777140765737
     },
     {
-      "id": "暴利",
-      "hanzi": "暴利",
-      "meaning": "ganancias excesivas / beneficios altos / lucro",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762965
-    },
-    {
       "id": "暴力",
       "hanzi": "暴力",
       "pinyin": "bào lì",
@@ -25854,28 +23981,6 @@
       "enriched": true,
       "updatedAt": 1777160272242,
       "createdAt": 1777160220203
-    },
-    {
-      "id": "曲",
-      "hanzi": "曲",
-      "pinyin": "qū",
-      "pinyinToneless": "qu",
-      "meaning": "curva / doblado / torcido",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777398168943,
-      "createdAt": 1777398024849
-    },
-    {
-      "id": "曲去",
-      "hanzi": "曲去",
-      "pinyin": "qū qù",
-      "pinyinToneless": "qu qu",
-      "meaning": "Qu Qu Qu",
-      "source": "reader",
-      "enriched": false,
-      "updatedAt": 1777319509909,
-      "createdAt": 1777319509909
     },
     {
       "id": "曲线",
@@ -26054,15 +24159,6 @@
       "createdAt": 1777140765778
     },
     {
-      "id": "最低",
-      "hanzi": "最低",
-      "meaning": "mínimo / más bajo / inferior",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762968
-    },
-    {
       "id": "最倦",
       "hanzi": "最倦",
       "pinyin": "zuì juàn",
@@ -26072,15 +24168,6 @@
       "enriched": true,
       "updatedAt": 1777149106477,
       "createdAt": 1777140765780
-    },
-    {
-      "id": "最先",
-      "hanzi": "最先",
-      "meaning": "primero / inicial / ante todo",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762968
     },
     {
       "id": "最后",
@@ -26301,17 +24388,6 @@
       "enriched": true,
       "updatedAt": 1777149106485,
       "createdAt": 1777140765819
-    },
-    {
-      "id": "有求于",
-      "hanzi": "有求于",
-      "pinyin": "yǒu qiú yú",
-      "pinyinToneless": "you qiu yu",
-      "meaning": "depender de / necesitar / solicitar",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777320769395
     },
     {
       "id": "有没有",
@@ -26875,15 +24951,6 @@
       "createdAt": 1777140765937
     },
     {
-      "id": "权益",
-      "hanzi": "权益",
-      "meaning": "derechos e intereses",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234762980,
-      "createdAt": 1777234762980
-    },
-    {
       "id": "权贵",
       "hanzi": "权贵",
       "pinyin": "quán guì",
@@ -27423,24 +25490,6 @@
       "createdAt": 1777140766051
     },
     {
-      "id": "标志",
-      "hanzi": "标志",
-      "meaning": "símbolo / señal / emblema",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762988
-    },
-    {
-      "id": "标志著",
-      "hanzi": "标志著",
-      "meaning": "marcar / señalar / indicar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762988
-    },
-    {
       "id": "标普",
       "hanzi": "标普",
       "pinyin": "biāo pǔ",
@@ -27815,17 +25864,6 @@
       "createdAt": 1777140766128
     },
     {
-      "id": "概括",
-      "hanzi": "概括",
-      "pinyin": "gài kuò",
-      "pinyinToneless": "gai kuo",
-      "meaning": "resumen / síntesis / compendio",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777398168943,
-      "createdAt": 1777398025283
-    },
-    {
       "id": "概率",
       "hanzi": "概率",
       "pinyin": "gài lǜ",
@@ -28156,15 +26194,6 @@
       "createdAt": 1777140766194
     },
     {
-      "id": "此刻",
-      "hanzi": "此刻",
-      "meaning": "este momento / ahora / instante",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234762999
-    },
-    {
       "id": "此因",
       "hanzi": "此因",
       "pinyin": "cǐ yīn",
@@ -28196,15 +26225,6 @@
       "enriched": true,
       "updatedAt": 1777149106565,
       "createdAt": 1777140766200
-    },
-    {
-      "id": "武力",
-      "hanzi": "武力",
-      "meaning": "fuerza militar / poder bélico / violencia",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763000
     },
     {
       "id": "武器",
@@ -28271,15 +26291,6 @@
       "enriched": true,
       "updatedAt": 1777149106566,
       "createdAt": 1777140766213
-    },
-    {
-      "id": "死去",
-      "hanzi": "死去",
-      "meaning": "morir / fallecer / expirar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763002
     },
     {
       "id": "死因",
@@ -28524,15 +26535,6 @@
       "createdAt": 1777140766263
     },
     {
-      "id": "比特",
-      "hanzi": "比特",
-      "meaning": "bit / unidad de información / dato",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763006
-    },
-    {
       "id": "比较",
       "hanzi": "比较",
       "pinyin": "bǐ jiào",
@@ -28608,15 +26610,6 @@
       "enriched": true,
       "updatedAt": 1777149106575,
       "createdAt": 1777140766279
-    },
-    {
-      "id": "民主",
-      "hanzi": "民主",
-      "meaning": "democracia / gobierno del pueblo / sistema político",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763007
     },
     {
       "id": "民众",
@@ -28773,15 +26766,6 @@
       "createdAt": 1777140766311
     },
     {
-      "id": "永久",
-      "hanzi": "永久",
-      "meaning": "permanente / eterno / duradero",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763010
-    },
-    {
       "id": "永住",
       "hanzi": "永住",
       "pinyin": "yǒng zhù",
@@ -28824,15 +26808,6 @@
       "enriched": true,
       "updatedAt": 1777149106581,
       "createdAt": 1777140766320
-    },
-    {
-      "id": "求救",
-      "hanzi": "求救",
-      "meaning": "pedir ayuda / solicitar auxilio / clamar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763011
     },
     {
       "id": "求生",
@@ -29000,15 +26975,6 @@
       "createdAt": 1777140766355
     },
     {
-      "id": "沸点",
-      "hanzi": "沸点",
-      "meaning": "punto de ebullición",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234763014,
-      "createdAt": 1777234763014
-    },
-    {
       "id": "油",
       "hanzi": "油",
       "pinyin": "yóu",
@@ -29062,15 +27028,6 @@
       "enriched": true,
       "updatedAt": 1777149106587,
       "createdAt": 1777140766365
-    },
-    {
-      "id": "治理",
-      "hanzi": "治理",
-      "meaning": "gobernanza / administración / gestión",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763015
     },
     {
       "id": "沿海",
@@ -29458,24 +27415,6 @@
       "createdAt": 1777140766451
     },
     {
-      "id": "流血",
-      "hanzi": "流血",
-      "meaning": "sangrado / hemorragia / pérdida de sangre",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763020
-    },
-    {
-      "id": "流血冲突",
-      "hanzi": "流血冲突",
-      "meaning": "conflicto armado / enfrentamiento / lucha",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763020
-    },
-    {
       "id": "流行",
       "hanzi": "流行",
       "pinyin": "liú xíng",
@@ -29485,15 +27424,6 @@
       "enriched": true,
       "updatedAt": 1777149106599,
       "createdAt": 1777140766454
-    },
-    {
-      "id": "流露出",
-      "hanzi": "流露出",
-      "meaning": "revelar / mostrar / expresar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763021
     },
     {
       "id": "浇水",
@@ -29639,15 +27569,6 @@
       "createdAt": 1777140766483
     },
     {
-      "id": "消磨",
-      "hanzi": "消磨",
-      "meaning": "desgastar / consumir / agotar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763023
-    },
-    {
       "id": "消耗",
       "hanzi": "消耗",
       "pinyin": "xiāo hào",
@@ -29679,15 +27600,6 @@
       "enriched": true,
       "updatedAt": 1777149106604,
       "createdAt": 1777140766491
-    },
-    {
-      "id": "消除",
-      "hanzi": "消除",
-      "meaning": "eliminar / suprimir / erradicar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763024
     },
     {
       "id": "涉及",
@@ -30062,15 +27974,6 @@
       "enriched": true,
       "updatedAt": 1777149106613,
       "createdAt": 1777140766571
-    },
-    {
-      "id": "清洗",
-      "hanzi": "清洗",
-      "meaning": "limpiar / purificar / desinfectar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763036
     },
     {
       "id": "清零",
@@ -30469,15 +28372,6 @@
       "createdAt": 1777140766656
     },
     {
-      "id": "火上",
-      "hanzi": "火上",
-      "meaning": "en llamas / ardiendo / incendiado",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763043
-    },
-    {
       "id": "火坑",
       "hanzi": "火坑",
       "pinyin": "huǒ kēng",
@@ -30520,15 +28414,6 @@
       "enriched": true,
       "updatedAt": 1777149106629,
       "createdAt": 1777140766665
-    },
-    {
-      "id": "火药桶",
-      "hanzi": "火药桶",
-      "meaning": "barril de pólvora / explosivo / peligroso",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763044
     },
     {
       "id": "灵魂",
@@ -30826,15 +28711,6 @@
       "enriched": true,
       "updatedAt": 1777149106638,
       "createdAt": 1777140766729
-    },
-    {
-      "id": "燃料",
-      "hanzi": "燃料",
-      "meaning": "combustible / energía / materia",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763049
     },
     {
       "id": "燃油",
@@ -31387,15 +29263,6 @@
       "createdAt": 1777140766849
     },
     {
-      "id": "率",
-      "hanzi": "率",
-      "meaning": "tasa / índice / proporción",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763056
-    },
-    {
       "id": "率先",
       "hanzi": "率先",
       "pinyin": "lǜ xiān",
@@ -31539,15 +29406,6 @@
       "createdAt": 1777140766878
     },
     {
-      "id": "现实主义",
-      "hanzi": "现实主义",
-      "meaning": "realismo / enfoque práctico / filosofía",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763059
-    },
-    {
       "id": "现实意义",
       "hanzi": "现实意义",
       "pinyin": "xiàn shí yì yì",
@@ -31592,15 +29450,6 @@
       "createdAt": 1777140766887
     },
     {
-      "id": "珍惜",
-      "hanzi": "珍惜",
-      "meaning": "valorar / apreciar / cuidar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763060
-    },
-    {
       "id": "理工",
       "hanzi": "理工",
       "pinyin": "lǐ gōng",
@@ -31632,15 +29481,6 @@
       "enriched": true,
       "updatedAt": 1777149106660,
       "createdAt": 1777140766894
-    },
-    {
-      "id": "理想",
-      "hanzi": "理想",
-      "meaning": "ideal / aspiración / objetivo",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763061
     },
     {
       "id": "理所当然",
@@ -31762,15 +29602,6 @@
       "enriched": true,
       "updatedAt": 1777149106663,
       "createdAt": 1777140766921
-    },
-    {
-      "id": "瓦鲁发",
-      "hanzi": "瓦鲁发",
-      "meaning": "Walraf / nombre propio / término",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763063
     },
     {
       "id": "甚至",
@@ -32015,15 +29846,6 @@
       "createdAt": 1777140766979
     },
     {
-      "id": "生理机制",
-      "hanzi": "生理机制",
-      "meaning": "mecanismo fisiológico / proceso biológico / función",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763067
-    },
-    {
       "id": "生计",
       "hanzi": "生计",
       "pinyin": "shēng jì",
@@ -32055,15 +29877,6 @@
       "enriched": true,
       "updatedAt": 1777149106671,
       "createdAt": 1777140767020
-    },
-    {
-      "id": "用户",
-      "hanzi": "用户",
-      "meaning": "usuario / cliente / consumidor",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763068
     },
     {
       "id": "用来",
@@ -32231,24 +30044,6 @@
       "createdAt": 1777140767108
     },
     {
-      "id": "电视",
-      "hanzi": "电视",
-      "meaning": "televisión / televisor / aparato",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763070
-    },
-    {
-      "id": "电费",
-      "hanzi": "电费",
-      "meaning": "factura de electricidad",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234763071,
-      "createdAt": 1777234763071
-    },
-    {
       "id": "画出",
       "hanzi": "画出",
       "pinyin": "huà chū",
@@ -32258,17 +30053,6 @@
       "enriched": true,
       "updatedAt": 1777149106676,
       "createdAt": 1777140767111
-    },
-    {
-      "id": "画面感",
-      "hanzi": "画面感",
-      "pinyin": "huà miàn gǎn",
-      "pinyinToneless": "hua mian gan",
-      "meaning": "sentido de la imagen",
-      "source": "reader",
-      "enriched": false,
-      "updatedAt": 1777319466149,
-      "createdAt": 1777319466149
     },
     {
       "id": "留意",
@@ -32348,15 +30132,6 @@
       "createdAt": 1777140767127
     },
     {
-      "id": "病人",
-      "hanzi": "病人",
-      "meaning": "paciente / enfermo / persona enferma",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763072
-    },
-    {
       "id": "病毒",
       "hanzi": "病毒",
       "pinyin": "bìng dú",
@@ -32368,24 +30143,6 @@
       "createdAt": 1777140767129
     },
     {
-      "id": "痛感",
-      "hanzi": "痛感",
-      "meaning": "dolor / malestar / sufrimiento",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763073
-    },
-    {
-      "id": "痛点",
-      "hanzi": "痛点",
-      "meaning": "Puntos de dolor",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234763073,
-      "createdAt": 1777234763073
-    },
-    {
       "id": "痛苦",
       "hanzi": "痛苦",
       "pinyin": "tòng kǔ",
@@ -32395,15 +30152,6 @@
       "enriched": true,
       "updatedAt": 1777149106679,
       "createdAt": 1777140767131
-    },
-    {
-      "id": "痛觉",
-      "hanzi": "痛觉",
-      "meaning": "sensación de dolor / percepción / molestia",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763074
     },
     {
       "id": "痴迷",
@@ -32549,15 +30297,6 @@
       "createdAt": 1777140767165
     },
     {
-      "id": "的确",
-      "hanzi": "的确",
-      "meaning": "efectivamente / de hecho / ciertamente",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763076
-    },
-    {
       "id": "的话",
       "hanzi": "的话",
       "pinyin": "de huà",
@@ -32567,15 +30306,6 @@
       "enriched": true,
       "updatedAt": 1777149106683,
       "createdAt": 1777140767167
-    },
-    {
-      "id": "皇皇",
-      "hanzi": "皇皇",
-      "meaning": "grandioso / impresionante / majestuoso",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763077
     },
     {
       "id": "监控",
@@ -32754,15 +30484,6 @@
       "createdAt": 1777140767205
     },
     {
-      "id": "直击",
-      "hanzi": "直击",
-      "meaning": "impacto / golpe / ataque",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763080
-    },
-    {
       "id": "直径",
       "hanzi": "直径",
       "pinyin": "zhí jìng",
@@ -32928,17 +30649,6 @@
       "createdAt": 1777140767241
     },
     {
-      "id": "相当于",
-      "hanzi": "相当于",
-      "pinyin": "xiāng dāng yú",
-      "pinyinToneless": "xiang dang yu",
-      "meaning": "equivalente a / igual a / corresponde a",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777320664018
-    },
-    {
       "id": "相较",
       "hanzi": "相较",
       "pinyin": "xiāng jiào",
@@ -33016,15 +30726,6 @@
       "createdAt": 1777140767259
     },
     {
-      "id": "看清",
-      "hanzi": "看清",
-      "meaning": "ver claramente / entender / discernir",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763084
-    },
-    {
       "id": "看盘",
       "hanzi": "看盘",
       "pinyin": "kàn pán",
@@ -33078,15 +30779,6 @@
       "enriched": true,
       "updatedAt": 1777149106695,
       "createdAt": 1777140767272
-    },
-    {
-      "id": "真枪实弹",
-      "hanzi": "真枪实弹",
-      "meaning": "Armas reales y munición real.",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234763085,
-      "createdAt": 1777234763085
     },
     {
       "id": "真正",
@@ -33164,15 +30856,6 @@
       "enriched": true,
       "updatedAt": 1777149106697,
       "createdAt": 1777140767289
-    },
-    {
-      "id": "眼里",
-      "hanzi": "眼里",
-      "meaning": "ojo / visión / perspectiva",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763086
     },
     {
       "id": "眼镜",
@@ -33637,15 +31320,6 @@
       "createdAt": 1777140767383
     },
     {
-      "id": "社会形态",
-      "hanzi": "社会形态",
-      "meaning": "forma social / estructura social / tipo social",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763093
-    },
-    {
       "id": "社会秩序",
       "hanzi": "社会秩序",
       "pinyin": "shè huì zhì xù",
@@ -33655,15 +31329,6 @@
       "enriched": true,
       "updatedAt": 1777149106709,
       "createdAt": 1777140767386
-    },
-    {
-      "id": "社群",
-      "hanzi": "社群",
-      "meaning": "comunidad / grupo / colectivo",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763093
     },
     {
       "id": "神仙",
@@ -33853,15 +31518,6 @@
       "createdAt": 1777140767425
     },
     {
-      "id": "离析",
-      "hanzi": "离析",
-      "meaning": "separación / descomposición / análisis",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763098
-    },
-    {
       "id": "私人",
       "hanzi": "私人",
       "pinyin": "sī rén",
@@ -33871,15 +31527,6 @@
       "enriched": true,
       "updatedAt": 1777149106714,
       "createdAt": 1777140767427
-    },
-    {
-      "id": "私有化",
-      "hanzi": "私有化",
-      "meaning": "privatización / propiedad privada / desregulación",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763099
     },
     {
       "id": "种下",
@@ -34520,15 +32167,6 @@
       "createdAt": 1777140767578
     },
     {
-      "id": "竞争对手",
-      "hanzi": "竞争对手",
-      "meaning": "competidor / rival / adversario",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763107
-    },
-    {
       "id": "竞争者",
       "hanzi": "竞争者",
       "pinyin": "jìng zhēng zhě",
@@ -34604,17 +32242,6 @@
       "enriched": true,
       "updatedAt": 1777149106733,
       "createdAt": 1777140767596
-    },
-    {
-      "id": "第一",
-      "hanzi": "第一",
-      "pinyin": "dì yī",
-      "pinyinToneless": "di yi",
-      "meaning": "primero / número uno / principal",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777135501600
     },
     {
       "id": "第一个",
@@ -34903,15 +32530,6 @@
       "createdAt": 1777140767667
     },
     {
-      "id": "算法",
-      "hanzi": "算法",
-      "meaning": "algoritmo / fórmula / procedimiento",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763112
-    },
-    {
       "id": "算盘",
       "hanzi": "算盘",
       "pinyin": "suàn pán",
@@ -34978,17 +32596,6 @@
       "createdAt": 1777140767684
     },
     {
-      "id": "篇幅",
-      "hanzi": "篇幅",
-      "pinyin": "piān fú",
-      "pinyinToneless": "pian fu",
-      "meaning": "extensión / longitud / tamaño",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777320339246
-    },
-    {
       "id": "篡改",
       "hanzi": "篡改",
       "pinyin": "cuàn gǎi",
@@ -35053,17 +32660,6 @@
       "enriched": true,
       "updatedAt": 1777149106745,
       "createdAt": 1777140767700
-    },
-    {
-      "id": "粘住",
-      "hanzi": "粘住",
-      "pinyin": "nián zhù",
-      "pinyinToneless": "nian zhu",
-      "meaning": "pegar / adherir / unir",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777398168943,
-      "createdAt": 1777398042565
     },
     {
       "id": "粘玉",
@@ -35407,17 +33003,6 @@
       "createdAt": 1777140767783
     },
     {
-      "id": "纠缠",
-      "hanzi": "纠缠",
-      "pinyin": "jiū chán",
-      "pinyinToneless": "jiu chan",
-      "meaning": "enredar / complicar / mezclar",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777398168943,
-      "createdAt": 1777398060077
-    },
-    {
       "id": "纠葛",
       "hanzi": "纠葛",
       "pinyin": "jiū gé",
@@ -35471,15 +33056,6 @@
       "enriched": true,
       "updatedAt": 1777149106756,
       "createdAt": 1777140767795
-    },
-    {
-      "id": "约",
-      "hanzi": "约",
-      "meaning": "aproximadamente / alrededor de / cerca de",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763120
     },
     {
       "id": "约束力",
@@ -35856,15 +33432,6 @@
       "createdAt": 1777140767881
     },
     {
-      "id": "结合",
-      "hanzi": "结合",
-      "meaning": "combinación / unión / integración",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763125
-    },
-    {
       "id": "结机",
       "hanzi": "结机",
       "pinyin": "jié jī",
@@ -36096,24 +33663,6 @@
       "createdAt": 1777140767934
     },
     {
-      "id": "绝非",
-      "hanzi": "绝非",
-      "meaning": "nada menos que / absolutamente no / en absoluto",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763128
-    },
-    {
-      "id": "统治",
-      "hanzi": "统治",
-      "meaning": "dominio / control / gobierno",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763129
-    },
-    {
       "id": "统统",
       "hanzi": "统统",
       "pinyin": "tǒng tǒng",
@@ -36145,15 +33694,6 @@
       "enriched": true,
       "updatedAt": 1777149106774,
       "createdAt": 1777140767944
-    },
-    {
-      "id": "维护",
-      "hanzi": "维护",
-      "meaning": "mantener / preservar / defender",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763130
     },
     {
       "id": "维持",
@@ -36288,28 +33828,6 @@
       "createdAt": 1777140767978
     },
     {
-      "id": "缠丝劲",
-      "hanzi": "缠丝劲",
-      "pinyin": "chán sī jìn",
-      "pinyinToneless": "chan si jin",
-      "meaning": "La fuerza de la seda enrollada",
-      "source": "reader",
-      "enriched": false,
-      "updatedAt": 1777398039186,
-      "createdAt": 1777398039186
-    },
-    {
-      "id": "缠斗",
-      "hanzi": "缠斗",
-      "pinyin": "chán dòu",
-      "pinyinToneless": "chan dou",
-      "meaning": "lucha / pelea / conflicto",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777319495675
-    },
-    {
       "id": "缺乏",
       "hanzi": "缺乏",
       "pinyin": "quē fá",
@@ -36341,15 +33859,6 @@
       "enriched": true,
       "updatedAt": 1777149106779,
       "createdAt": 1777140767986
-    },
-    {
-      "id": "网约车",
-      "hanzi": "网约车",
-      "meaning": "Llamada de coches en línea",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234763133,
-      "createdAt": 1777234763133
     },
     {
       "id": "网线",
@@ -36416,15 +33925,6 @@
       "enriched": true,
       "updatedAt": 1777149106782,
       "createdAt": 1777140768001
-    },
-    {
-      "id": "罢工抗议",
-      "hanzi": "罢工抗议",
-      "meaning": "huelga de protesta",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234763134,
-      "createdAt": 1777234763134
     },
     {
       "id": "罪恶",
@@ -36944,15 +34444,6 @@
       "createdAt": 1777140768129
     },
     {
-      "id": "聚分",
-      "hanzi": "聚分",
-      "meaning": "reunir / agrupar / clasificar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763140
-    },
-    {
       "id": "聚焦",
       "hanzi": "聚焦",
       "pinyin": "jù jiāo",
@@ -36984,15 +34475,6 @@
       "enriched": true,
       "updatedAt": 1777149106797,
       "createdAt": 1777140768137
-    },
-    {
-      "id": "聪明人",
-      "hanzi": "聪明人",
-      "meaning": "persona inteligente / sabio / astuto",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763141
     },
     {
       "id": "股市",
@@ -37237,17 +34719,6 @@
       "createdAt": 1777140768199
     },
     {
-      "id": "脑航",
-      "hanzi": "脑航",
-      "pinyin": "nǎo háng",
-      "pinyinToneless": "nao hang",
-      "meaning": "navegación cerebral / mapeo cerebral / neuro-navegación",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777320660948
-    },
-    {
       "id": "脚垫",
       "hanzi": "脚垫",
       "pinyin": "jiǎo diàn",
@@ -37292,17 +34763,6 @@
       "createdAt": 1777140768211
     },
     {
-      "id": "脱钩",
-      "hanzi": "脱钩",
-      "pinyin": "tuō gōu",
-      "pinyinToneless": "tuo gou",
-      "meaning": "desvincular / separar / desconectar",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777398168943,
-      "createdAt": 1777398004846
-    },
-    {
       "id": "腐朽",
       "hanzi": "腐朽",
       "pinyin": "fǔ xiǔ",
@@ -37312,15 +34772,6 @@
       "enriched": true,
       "updatedAt": 1777149106806,
       "createdAt": 1777140768215
-    },
-    {
-      "id": "腐败",
-      "hanzi": "腐败",
-      "meaning": "corrupción / putrefacción / descomposición",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763145
     },
     {
       "id": "腹地",
@@ -37411,15 +34862,6 @@
       "createdAt": 1777140768239
     },
     {
-      "id": "自我管理",
-      "hanzi": "自我管理",
-      "meaning": "autogestión / auto-administración / gestión personal",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763146
-    },
-    {
       "id": "自杀",
       "hanzi": "自杀",
       "pinyin": "zì shā",
@@ -37462,15 +34904,6 @@
       "enriched": true,
       "updatedAt": 1777149106810,
       "createdAt": 1777140768250
-    },
-    {
-      "id": "自由市场",
-      "hanzi": "自由市场",
-      "meaning": "mercado libre / economía libre / libre comercio",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763148
     },
     {
       "id": "自豪",
@@ -37726,17 +35159,6 @@
       "createdAt": 1777140768317
     },
     {
-      "id": "航道",
-      "hanzi": "航道",
-      "pinyin": "háng dào",
-      "pinyinToneless": "hang dao",
-      "meaning": "canal de navegación / ruta marítima / vía fluvial",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777320869604
-    },
-    {
       "id": "舰队",
       "hanzi": "舰队",
       "pinyin": "jiàn duì",
@@ -37792,15 +35214,6 @@
       "createdAt": 1777140768332
     },
     {
-      "id": "良好",
-      "hanzi": "良好",
-      "meaning": "bueno / favorable / positivo",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763152
-    },
-    {
       "id": "良心",
       "hanzi": "良心",
       "pinyin": "liáng xīn",
@@ -37821,17 +35234,6 @@
       "enriched": true,
       "updatedAt": 1777149106819,
       "createdAt": 1777140768338
-    },
-    {
-      "id": "色彩",
-      "hanzi": "色彩",
-      "pinyin": "sè cǎi",
-      "pinyinToneless": "se cai",
-      "meaning": "color / tonalidad / matiz",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777319451221
     },
     {
       "id": "节奏",
@@ -37889,17 +35291,6 @@
       "createdAt": 1777140768353
     },
     {
-      "id": "节骨眼",
-      "hanzi": "节骨眼",
-      "pinyin": "jiē gu yǎn",
-      "pinyinToneless": "jie gu yan",
-      "meaning": "momento crítico / punto clave / instante decisivo",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777320780539
-    },
-    {
       "id": "芬兰",
       "hanzi": "芬兰",
       "pinyin": "fēn lán",
@@ -37920,17 +35311,6 @@
       "enriched": true,
       "updatedAt": 1777149106821,
       "createdAt": 1777140768358
-    },
-    {
-      "id": "花",
-      "hanzi": "花",
-      "pinyin": "huā",
-      "pinyinToneless": "hua",
-      "meaning": "flor / planta / decoración",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777398168943,
-      "createdAt": 1777398075727
     },
     {
       "id": "花边新闻",
@@ -38219,15 +35599,6 @@
       "createdAt": 1777140768433
     },
     {
-      "id": "蔓延",
-      "hanzi": "蔓延",
-      "meaning": "propagación / expansión / difusión",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763157
-    },
-    {
       "id": "蔓延到",
       "hanzi": "蔓延到",
       "pinyin": "màn yán dào",
@@ -38437,15 +35808,6 @@
       "createdAt": 1777140768487
     },
     {
-      "id": "街头",
-      "hanzi": "街头",
-      "meaning": "calle / vía pública / zona urbana",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763160
-    },
-    {
       "id": "补充",
       "hanzi": "补充",
       "pinyin": "bǔ chōng",
@@ -38455,15 +35817,6 @@
       "enriched": true,
       "updatedAt": 1777149106835,
       "createdAt": 1777140768490
-    },
-    {
-      "id": "补贴",
-      "hanzi": "补贴",
-      "meaning": "subsidio / ayuda económica / apoyo financiero",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763160
     },
     {
       "id": "表态",
@@ -38543,17 +35896,6 @@
       "createdAt": 1777140768510
     },
     {
-      "id": "袖子",
-      "hanzi": "袖子",
-      "pinyin": "xiù zǐ",
-      "pinyinToneless": "xiu zi",
-      "meaning": "manga / parte de la ropa / prenda",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777398168943,
-      "createdAt": 1777398056217
-    },
-    {
       "id": "被",
       "hanzi": "被",
       "pinyin": "bèi",
@@ -38607,15 +35949,6 @@
       "enriched": true,
       "updatedAt": 1777149106838,
       "createdAt": 1777140768524
-    },
-    {
-      "id": "裂痕",
-      "hanzi": "裂痕",
-      "meaning": "grieta / fractura / ruptura",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763162
     },
     {
       "id": "装备",
@@ -38704,15 +36037,6 @@
       "enriched": true,
       "updatedAt": 1777149106840,
       "createdAt": 1777140768546
-    },
-    {
-      "id": "要害",
-      "hanzi": "要害",
-      "meaning": "punto crucial / esencia / núcleo",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763163
     },
     {
       "id": "要求",
@@ -38946,17 +36270,6 @@
       "createdAt": 1777140768606
     },
     {
-      "id": "角落",
-      "hanzi": "角落",
-      "pinyin": "jiǎo luò",
-      "pinyinToneless": "jiao luo",
-      "meaning": "rincón / esquina / lugar",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777319476724
-    },
-    {
       "id": "解决",
       "hanzi": "解决",
       "pinyin": "jiě jué",
@@ -39120,24 +36433,6 @@
       "enriched": true,
       "updatedAt": 1777149106852,
       "createdAt": 1777140768648
-    },
-    {
-      "id": "警察",
-      "hanzi": "警察",
-      "meaning": "policía / agente / oficial",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763169
-    },
-    {
-      "id": "警方",
-      "hanzi": "警方",
-      "meaning": "fuerzas del orden / autoridad / cuerpo policial",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763169
     },
     {
       "id": "计算出来",
@@ -39415,15 +36710,6 @@
       "createdAt": 1777140768723
     },
     {
-      "id": "论调",
-      "hanzi": "论调",
-      "meaning": "discurso / argumento / postura",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763173
-    },
-    {
       "id": "论道",
       "hanzi": "论道",
       "pinyin": "lùn dào",
@@ -39567,15 +36853,6 @@
       "createdAt": 1777140768757
     },
     {
-      "id": "识别",
-      "hanzi": "识别",
-      "meaning": "identificación / reconocimiento / detección",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763175
-    },
-    {
       "id": "诉求",
       "hanzi": "诉求",
       "pinyin": "sù qiú",
@@ -39618,17 +36895,6 @@
       "enriched": true,
       "updatedAt": 1777149106864,
       "createdAt": 1777140768767
-    },
-    {
-      "id": "词汇",
-      "hanzi": "词汇",
-      "pinyin": "cí huì",
-      "pinyinToneless": "ci hui",
-      "meaning": "vocabulario / léxico / glosario",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777319452553
     },
     {
       "id": "试图",
@@ -39708,15 +36974,6 @@
       "createdAt": 1777140768790
     },
     {
-      "id": "话语",
-      "hanzi": "话语",
-      "meaning": "discurso / expresión / enunciado",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763177
-    },
-    {
       "id": "话说回来",
       "hanzi": "话说回来",
       "pinyin": "huà shuō huí lái",
@@ -39726,15 +36983,6 @@
       "enriched": true,
       "updatedAt": 1777149106867,
       "createdAt": 1777140768793
-    },
-    {
-      "id": "话题",
-      "hanzi": "话题",
-      "meaning": "tema / asunto / tópico",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763177
     },
     {
       "id": "诞生",
@@ -39935,15 +37183,6 @@
       "createdAt": 1777140768842
     },
     {
-      "id": "说法",
-      "hanzi": "说法",
-      "meaning": "afirmación / declaración / opinión",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763180
-    },
-    {
       "id": "说白了",
       "hanzi": "说白了",
       "pinyin": "shuō bái le",
@@ -39997,15 +37236,6 @@
       "enriched": true,
       "updatedAt": 1777149106874,
       "createdAt": 1777140768857
-    },
-    {
-      "id": "读一读",
-      "hanzi": "读一读",
-      "meaning": "leer un poco / revisar / echar un vistazo",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763181
     },
     {
       "id": "课程",
@@ -40149,15 +37379,6 @@
       "enriched": true,
       "updatedAt": 1777149106878,
       "createdAt": 1777140768894
-    },
-    {
-      "id": "谈论",
-      "hanzi": "谈论",
-      "meaning": "discutir / hablar de / conversar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763183
     },
     {
       "id": "谋杀",
@@ -40378,24 +37599,6 @@
       "enriched": true,
       "updatedAt": 1777149106883,
       "createdAt": 1777140768953
-    },
-    {
-      "id": "账单",
-      "hanzi": "账单",
-      "meaning": "factura / cuenta / recibo",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763186
-    },
-    {
-      "id": "账号",
-      "hanzi": "账号",
-      "meaning": "cuenta / perfil / usuario",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763187
     },
     {
       "id": "账户",
@@ -40629,15 +37832,6 @@
       "createdAt": 1777140769012
     },
     {
-      "id": "资源",
-      "hanzi": "资源",
-      "meaning": "recursos / bienes / suministros",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763190
-    },
-    {
       "id": "资金",
       "hanzi": "资金",
       "pinyin": "zī jīn",
@@ -40671,24 +37865,6 @@
       "createdAt": 1777140769020
     },
     {
-      "id": "赖以",
-      "hanzi": "赖以",
-      "meaning": "depender de / basarse en / apoyarse en",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763191
-    },
-    {
-      "id": "赚取",
-      "hanzi": "赚取",
-      "meaning": "ganar / obtener / conseguir",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763191
-    },
-    {
       "id": "赚钱",
       "hanzi": "赚钱",
       "pinyin": "zhuàn qián",
@@ -40709,15 +37885,6 @@
       "enriched": true,
       "updatedAt": 1777149106891,
       "createdAt": 1777140769026
-    },
-    {
-      "id": "赤裸裸",
-      "hanzi": "赤裸裸",
-      "meaning": "desnudo / explícito / evidente",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763192
     },
     {
       "id": "赫然",
@@ -40951,15 +38118,6 @@
       "createdAt": 1777140769090
     },
     {
-      "id": "趋势",
-      "hanzi": "趋势",
-      "meaning": "tendencia / curso / inclinación",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763195
-    },
-    {
       "id": "足以",
       "hanzi": "足以",
       "pinyin": "zú yǐ",
@@ -41114,17 +38272,6 @@
       "createdAt": 1777140769130
     },
     {
-      "id": "身",
-      "hanzi": "身",
-      "pinyin": "shēn",
-      "pinyinToneless": "shen",
-      "meaning": "cuerpo / persona / figura",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777319635226
-    },
-    {
       "id": "身上",
       "hanzi": "身上",
       "pinyin": "shēn shàng",
@@ -41178,15 +38325,6 @@
       "enriched": true,
       "updatedAt": 1777149106903,
       "createdAt": 1777140769145
-    },
-    {
-      "id": "车",
-      "hanzi": "车",
-      "meaning": "coche / vehículo / tren",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763198
     },
     {
       "id": "车身",
@@ -41332,15 +38470,6 @@
       "createdAt": 1777140769185
     },
     {
-      "id": "软性",
-      "hanzi": "软性",
-      "meaning": "suave / flexible / blando",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763200
-    },
-    {
       "id": "轰炸",
       "hanzi": "轰炸",
       "pinyin": "hōng zhà",
@@ -41394,15 +38523,6 @@
       "enriched": true,
       "updatedAt": 1777149106908,
       "createdAt": 1777140769209
-    },
-    {
-      "id": "输入",
-      "hanzi": "输入",
-      "meaning": "entrada / ingreso / suministro",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763201
     },
     {
       "id": "输出功率",
@@ -41471,15 +38591,6 @@
       "createdAt": 1777140769281
     },
     {
-      "id": "边缘",
-      "hanzi": "边缘",
-      "meaning": "borde / margen / límite",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763202
-    },
-    {
       "id": "边缘化",
       "hanzi": "边缘化",
       "pinyin": "biān yuán huà",
@@ -41489,15 +38600,6 @@
       "enriched": true,
       "updatedAt": 1777149106910,
       "createdAt": 1777140769284
-    },
-    {
-      "id": "达到",
-      "hanzi": "达到",
-      "meaning": "alcanzar / lograr / conseguir",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763203
     },
     {
       "id": "达号",
@@ -41685,15 +38787,6 @@
       "enriched": true,
       "updatedAt": 1777149106915,
       "createdAt": 1777140769336
-    },
-    {
-      "id": "运动",
-      "hanzi": "运动",
-      "meaning": "deporte / ejercicio / movimiento",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763206
     },
     {
       "id": "运气",
@@ -41894,15 +38987,6 @@
       "createdAt": 1777140769392
     },
     {
-      "id": "这位",
-      "hanzi": "这位",
-      "meaning": "esta persona / este / esta figura",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763209
-    },
-    {
       "id": "这儿",
       "hanzi": "这儿",
       "pinyin": "zhè ér",
@@ -42011,17 +39095,6 @@
       "enriched": true,
       "updatedAt": 1777149106923,
       "createdAt": 1777140769421
-    },
-    {
-      "id": "这次",
-      "hanzi": "这次",
-      "pinyin": "zhè cì",
-      "pinyinToneless": "zhe ci",
-      "meaning": "esta vez / esta ocasión / este momento",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777319445441
     },
     {
       "id": "这点",
@@ -42376,17 +39449,6 @@
       "createdAt": 1777140769509
     },
     {
-      "id": "连锁反应",
-      "hanzi": "连锁反应",
-      "pinyin": "lián suǒ fǎn yìng",
-      "pinyinToneless": "lian suo fan ying",
-      "meaning": "reacción en cadena",
-      "source": "reader",
-      "enriched": false,
-      "updatedAt": 1777320734380,
-      "createdAt": 1777320734380
-    },
-    {
       "id": "迫使",
       "hanzi": "迫使",
       "pinyin": "pò shǐ",
@@ -42497,15 +39559,6 @@
       "createdAt": 1777140769537
     },
     {
-      "id": "退一步说",
-      "hanzi": "退一步说",
-      "meaning": "Da un paso atrás y di",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234763216,
-      "createdAt": 1777234763216
-    },
-    {
       "id": "退休",
       "hanzi": "退休",
       "pinyin": "tuì xiū",
@@ -42537,17 +39590,6 @@
       "enriched": true,
       "updatedAt": 1777149106936,
       "createdAt": 1777140769547
-    },
-    {
-      "id": "退回",
-      "hanzi": "退回",
-      "pinyin": "tuì huí",
-      "pinyinToneless": "tui hui",
-      "meaning": "devolver / retornar / regresar",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777319477224
     },
     {
       "id": "退守",
@@ -42616,15 +39658,6 @@
       "createdAt": 1777140769564
     },
     {
-      "id": "逃离",
-      "hanzi": "逃离",
-      "meaning": "escapar / huir / fugarse",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763218
-    },
-    {
       "id": "逃避现实",
       "hanzi": "逃避现实",
       "pinyin": "táo bì xiàn shí",
@@ -42634,24 +39667,6 @@
       "enriched": true,
       "updatedAt": 1777149106938,
       "createdAt": 1777140769567
-    },
-    {
-      "id": "逆份",
-      "hanzi": "逆份",
-      "meaning": "reverso / opuesto / contrario",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763219
-    },
-    {
-      "id": "逆风",
-      "hanzi": "逆风",
-      "meaning": "contra el viento",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234763219,
-      "createdAt": 1777234763219
     },
     {
       "id": "选举",
@@ -42775,15 +39790,6 @@
       "createdAt": 1777140769599
     },
     {
-      "id": "途径",
-      "hanzi": "途径",
-      "meaning": "camino / vía / método",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763221
-    },
-    {
       "id": "通信",
       "hanzi": "通信",
       "pinyin": "tōng xìn",
@@ -42793,15 +39799,6 @@
       "enriched": true,
       "updatedAt": 1777149106942,
       "createdAt": 1777140769601
-    },
-    {
-      "id": "通势",
-      "hanzi": "通势",
-      "meaning": "tendencia general / corriente / dirección",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763222
     },
     {
       "id": "通常",
@@ -42826,15 +39823,6 @@
       "createdAt": 1777140769608
     },
     {
-      "id": "通照",
-      "hanzi": "通照",
-      "meaning": "iluminación general / luz común / reflejo",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763222
-    },
-    {
       "id": "通线",
       "hanzi": "通线",
       "pinyin": "tōng xiàn",
@@ -42857,15 +39845,6 @@
       "createdAt": 1777140769613
     },
     {
-      "id": "通胀率",
-      "hanzi": "通胀率",
-      "meaning": "tasa de inflación",
-      "source": "reader_migrated",
-      "enriched": false,
-      "updatedAt": 1777234763223,
-      "createdAt": 1777234763223
-    },
-    {
       "id": "通行",
       "hanzi": "通行",
       "pinyin": "tōng xíng",
@@ -42875,15 +39854,6 @@
       "enriched": true,
       "updatedAt": 1777149106943,
       "createdAt": 1777140769617
-    },
-    {
-      "id": "通视",
-      "hanzi": "通视",
-      "meaning": "visión general / perspectiva / vista",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763223
     },
     {
       "id": "通讯",
@@ -43018,15 +39988,6 @@
       "createdAt": 1777140769651
     },
     {
-      "id": "遏制",
-      "hanzi": "遏制",
-      "meaning": "contener / restringir / frenar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763225
-    },
-    {
       "id": "遐想",
       "hanzi": "遐想",
       "pinyin": "xiá xiǎng",
@@ -43093,17 +40054,6 @@
       "createdAt": 1777140769670
     },
     {
-      "id": "遥控器",
-      "hanzi": "遥控器",
-      "pinyin": "yáo kòng qì",
-      "pinyinToneless": "yao kong qi",
-      "meaning": "mando a distancia",
-      "source": "reader",
-      "enriched": false,
-      "updatedAt": 1777339757090,
-      "createdAt": 1777339757090
-    },
-    {
       "id": "遥远",
       "hanzi": "遥远",
       "pinyin": "yáo yuǎn",
@@ -43135,15 +40085,6 @@
       "enriched": true,
       "updatedAt": 1777149106950,
       "createdAt": 1777140769679
-    },
-    {
-      "id": "遭受",
-      "hanzi": "遭受",
-      "meaning": "sufrir / experimentar / padecer",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763227
     },
     {
       "id": "遭遇",
@@ -43353,15 +40294,6 @@
       "enriched": true,
       "updatedAt": 1777149106955,
       "createdAt": 1777140769738
-    },
-    {
-      "id": "郊区",
-      "hanzi": "郊区",
-      "meaning": "suburbio / periferia / zona rural",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763230
     },
     {
       "id": "部分",
@@ -43815,15 +40747,6 @@
       "createdAt": 1777140769862
     },
     {
-      "id": "铁桶",
-      "hanzi": "铁桶",
-      "meaning": "barril de hierro / contenedor / depósito",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763236
-    },
-    {
       "id": "铁穹",
       "hanzi": "铁穹",
       "pinyin": "tiě qióng",
@@ -43976,15 +40899,6 @@
       "enriched": true,
       "updatedAt": 1777149106971,
       "createdAt": 1777140769907
-    },
-    {
-      "id": "镇压",
-      "hanzi": "镇压",
-      "meaning": "represión / supresión / control",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763238
     },
     {
       "id": "镜像",
@@ -44493,15 +41407,6 @@
       "createdAt": 1777140770049
     },
     {
-      "id": "降临",
-      "hanzi": "降临",
-      "meaning": "llegada / descenso / aparición",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763246
-    },
-    {
       "id": "降尾",
       "hanzi": "降尾",
       "pinyin": "jiàng wěi",
@@ -44555,15 +41460,6 @@
       "enriched": true,
       "updatedAt": 1777149106986,
       "createdAt": 1777140770066
-    },
-    {
-      "id": "限度",
-      "hanzi": "限度",
-      "meaning": "límite / restricción / frontera",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763247
     },
     {
       "id": "除了",
@@ -44729,15 +41625,6 @@
       "enriched": true,
       "updatedAt": 1777149106991,
       "createdAt": 1777140770114
-    },
-    {
-      "id": "隐私",
-      "hanzi": "隐私",
-      "meaning": "privacidad / secreto / confidencialidad",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763249
     },
     {
       "id": "隐秘",
@@ -44914,15 +41801,6 @@
       "enriched": true,
       "updatedAt": 1777149106996,
       "createdAt": 1777140770166
-    },
-    {
-      "id": "集结",
-      "hanzi": "集结",
-      "meaning": "reunión / agrupación / concentración",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763252
     },
     {
       "id": "集落",
@@ -45167,15 +42045,6 @@
       "createdAt": 1777140770235
     },
     {
-      "id": "非暴力",
-      "hanzi": "非暴力",
-      "meaning": "no violento / pacífico / sin agresión",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763255
-    },
-    {
       "id": "非法",
       "hanzi": "非法",
       "pinyin": "fēi fǎ",
@@ -45407,15 +42276,6 @@
       "createdAt": 1777140770302
     },
     {
-      "id": "预示",
-      "hanzi": "预示",
-      "meaning": "presagiar / indicar / anunciar",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763259
-    },
-    {
       "id": "预见",
       "hanzi": "预见",
       "pinyin": "yù jiàn",
@@ -45436,15 +42296,6 @@
       "enriched": true,
       "updatedAt": 1777149107009,
       "createdAt": 1777140770309
-    },
-    {
-      "id": "预防性",
-      "hanzi": "预防性",
-      "meaning": "preventivo / precautorio / profiláctico",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763260
     },
     {
       "id": "领主",
@@ -45489,15 +42340,6 @@
       "enriched": true,
       "updatedAt": 1777149107010,
       "createdAt": 1777140770321
-    },
-    {
-      "id": "领袖",
-      "hanzi": "领袖",
-      "meaning": "líder / jefe / dirigente",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763261
     },
     {
       "id": "颇具",
@@ -45797,15 +42639,6 @@
       "createdAt": 1777140770409
     },
     {
-      "id": "饥饿",
-      "hanzi": "饥饿",
-      "meaning": "hambre / inanición / necesidad",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763265
-    },
-    {
       "id": "饱受",
       "hanzi": "饱受",
       "pinyin": "bǎo shòu",
@@ -46090,17 +42923,6 @@
       "enriched": true,
       "updatedAt": 1777149107025,
       "createdAt": 1777140770507
-    },
-    {
-      "id": "骄傲",
-      "hanzi": "骄傲",
-      "pinyin": "jiāo ào",
-      "pinyinToneless": "jiao ao",
-      "meaning": "orgullo / vanidad / satisfacción",
-      "source": "reader",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777320761013
     },
     {
       "id": "高",
@@ -46398,15 +43220,6 @@
       "enriched": true,
       "updatedAt": 1777149107031,
       "createdAt": 1777140770588
-    },
-    {
-      "id": "麻醉剂",
-      "hanzi": "麻醉剂",
-      "meaning": "anestésico / sedante / narcótico",
-      "source": "reader_migrated",
-      "enriched": true,
-      "updatedAt": 1777397536252,
-      "createdAt": 1777234763273
     },
     {
       "id": "黑",
@@ -46893,15 +43706,6 @@
   ],
   "srs": [
     {
-      "id": "一切都是",
-      "interval": 1,
-      "ease": 2.5,
-      "due": 0,
-      "reps": 0,
-      "lapses": 0,
-      "hidden": true
-    },
-    {
       "id": "一句",
       "interval": 1,
       "ease": 2.5,
@@ -46945,15 +43749,6 @@
       "reps": 0,
       "lapses": 0,
       "hidden": true
-    },
-    {
-      "id": "一直",
-      "interval": 3,
-      "ease": 2.6,
-      "due": 1777148297572,
-      "reps": 1,
-      "lapses": 0,
-      "hidden": false
     },
     {
       "id": "一眼",
@@ -47154,15 +43949,6 @@
       "hidden": false
     },
     {
-      "id": "优势",
-      "interval": 3,
-      "ease": 2.6,
-      "due": 1777148293223,
-      "reps": 1,
-      "lapses": 0,
-      "hidden": false
-    },
-    {
       "id": "传统",
       "interval": 3,
       "ease": 2.6,
@@ -47224,15 +44010,6 @@
       "reps": 0,
       "lapses": 0,
       "hidden": true
-    },
-    {
-      "id": "停止",
-      "interval": 3,
-      "ease": 2.6,
-      "due": 1777148329875,
-      "reps": 1,
-      "lapses": 0,
-      "hidden": false
     },
     {
       "id": "偶然",
@@ -47361,15 +44138,6 @@
       "hidden": false
     },
     {
-      "id": "北京",
-      "interval": 3,
-      "ease": 2.6,
-      "due": 1777148304387,
-      "reps": 1,
-      "lapses": 0,
-      "hidden": false
-    },
-    {
       "id": "十万八千里",
       "interval": 1,
       "ease": 2.5,
@@ -47401,15 +44169,6 @@
       "interval": 1,
       "ease": 2.5,
       "due": 1777146418864,
-      "reps": 1,
-      "lapses": 0,
-      "hidden": false
-    },
-    {
-      "id": "卫星通信",
-      "interval": 3,
-      "ease": 2.6,
-      "due": 1777148300376,
       "reps": 1,
       "lapses": 0,
       "hidden": false
@@ -47449,15 +44208,6 @@
       "reps": 1,
       "lapses": 0,
       "hidden": false
-    },
-    {
-      "id": "反",
-      "interval": 1,
-      "ease": 2.5,
-      "due": 0,
-      "reps": 0,
-      "lapses": 0,
-      "hidden": true
     },
     {
       "id": "反噬",
@@ -47509,15 +44259,6 @@
       "interval": 3,
       "ease": 2.6,
       "due": 1777155428877,
-      "reps": 1,
-      "lapses": 0,
-      "hidden": false
-    },
-    {
-      "id": "另一方",
-      "interval": 3,
-      "ease": 2.6,
-      "due": 1777148314511,
       "reps": 1,
       "lapses": 0,
       "hidden": false
@@ -47586,15 +44327,6 @@
       "hidden": false
     },
     {
-      "id": "和平",
-      "interval": 3,
-      "ease": 2.6,
-      "due": 1777148337564,
-      "reps": 1,
-      "lapses": 0,
-      "hidden": false
-    },
-    {
       "id": "哇塞",
       "interval": 1,
       "ease": 2.5,
@@ -47649,15 +44381,6 @@
       "hidden": true
     },
     {
-      "id": "回复",
-      "interval": 3,
-      "ease": 2.6,
-      "due": 1777148287290,
-      "reps": 1,
-      "lapses": 0,
-      "hidden": false
-    },
-    {
       "id": "回绝",
       "interval": 1,
       "ease": 2.3,
@@ -47673,24 +44396,6 @@
       "due": 1776681797416,
       "reps": 2,
       "lapses": 0,
-      "hidden": false
-    },
-    {
-      "id": "国际",
-      "interval": 3,
-      "ease": 2.6,
-      "due": 1777148310974,
-      "reps": 1,
-      "lapses": 0,
-      "hidden": false
-    },
-    {
-      "id": "图谱",
-      "interval": 1,
-      "ease": 2.3,
-      "due": 1777141141972,
-      "reps": 1,
-      "lapses": 1,
       "hidden": false
     },
     {
@@ -47757,15 +44462,6 @@
       "hidden": false
     },
     {
-      "id": "基础设施",
-      "interval": 1,
-      "ease": 2.5,
-      "due": 1777141121030,
-      "reps": 1,
-      "lapses": 0,
-      "hidden": false
-    },
-    {
       "id": "复合体",
       "interval": 1,
       "ease": 2.5,
@@ -47820,15 +44516,6 @@
       "hidden": false
     },
     {
-      "id": "奢侈品",
-      "interval": 1,
-      "ease": 2.3,
-      "due": 1777141158958,
-      "reps": 1,
-      "lapses": 1,
-      "hidden": false
-    },
-    {
       "id": "威权",
       "interval": 1,
       "ease": 2.3,
@@ -47845,24 +44532,6 @@
       "reps": 0,
       "lapses": 0,
       "hidden": true
-    },
-    {
-      "id": "孵化",
-      "interval": 1,
-      "ease": 2.5,
-      "due": 1777141150656,
-      "reps": 1,
-      "lapses": 0,
-      "hidden": false
-    },
-    {
-      "id": "宗教",
-      "interval": 3,
-      "ease": 2.6,
-      "due": 1777148370249,
-      "reps": 1,
-      "lapses": 0,
-      "hidden": false
     },
     {
       "id": "实在",
@@ -48054,15 +44723,6 @@
       "hidden": false
     },
     {
-      "id": "年",
-      "interval": 1,
-      "ease": 2.5,
-      "due": 0,
-      "reps": 0,
-      "lapses": 0,
-      "hidden": true
-    },
-    {
       "id": "并且",
       "interval": 3,
       "ease": 2.6,
@@ -48175,24 +44835,6 @@
       "interval": 3,
       "ease": 2.6,
       "due": 1777154159695,
-      "reps": 1,
-      "lapses": 0,
-      "hidden": false
-    },
-    {
-      "id": "当地",
-      "interval": 3,
-      "ease": 2.6,
-      "due": 1777148283345,
-      "reps": 1,
-      "lapses": 0,
-      "hidden": false
-    },
-    {
-      "id": "形成",
-      "interval": 3,
-      "ease": 2.6,
-      "due": 1777148346199,
       "reps": 1,
       "lapses": 0,
       "hidden": false
@@ -48468,15 +45110,6 @@
       "hidden": false
     },
     {
-      "id": "收获",
-      "interval": 3,
-      "ease": 2.6,
-      "due": 1777148306143,
-      "reps": 1,
-      "lapses": 0,
-      "hidden": false
-    },
-    {
       "id": "政权",
       "interval": 1,
       "ease": 2.5,
@@ -48675,15 +45308,6 @@
       "hidden": false
     },
     {
-      "id": "枪击",
-      "interval": 3,
-      "ease": 2.6,
-      "due": 1777148323998,
-      "reps": 1,
-      "lapses": 0,
-      "hidden": false
-    },
-    {
       "id": "核反应堆",
       "interval": 1,
       "ease": 2.5,
@@ -48808,15 +45432,6 @@
       "reps": 0,
       "lapses": 0,
       "hidden": true
-    },
-    {
-      "id": "波斯语",
-      "interval": 3,
-      "ease": 2.6,
-      "due": 1777148308654,
-      "reps": 1,
-      "lapses": 0,
-      "hidden": false
     },
     {
       "id": "注意",
@@ -48967,15 +45582,6 @@
       "interval": 3,
       "ease": 2.6,
       "due": 1777154816946,
-      "reps": 1,
-      "lapses": 0,
-      "hidden": false
-    },
-    {
-      "id": "特鲁姆",
-      "interval": 3,
-      "ease": 2.6,
-      "due": 1777148291487,
       "reps": 1,
       "lapses": 0,
       "hidden": false
@@ -49152,15 +45758,6 @@
       "hidden": false
     },
     {
-      "id": "精心",
-      "interval": 1,
-      "ease": 2.3,
-      "due": 1777141161993,
-      "reps": 1,
-      "lapses": 1,
-      "hidden": false
-    },
-    {
       "id": "精神",
       "interval": 3,
       "ease": 2.6,
@@ -49314,15 +45911,6 @@
       "hidden": true
     },
     {
-      "id": "臂力",
-      "interval": 3,
-      "ease": 2.6,
-      "due": 1777148295181,
-      "reps": 1,
-      "lapses": 0,
-      "hidden": false
-    },
-    {
       "id": "自己",
       "interval": 2,
       "ease": 1.600000000000001,
@@ -49359,24 +45947,6 @@
       "hidden": false
     },
     {
-      "id": "著名",
-      "interval": 3,
-      "ease": 2.6,
-      "due": 1777148289460,
-      "reps": 1,
-      "lapses": 0,
-      "hidden": false
-    },
-    {
-      "id": "行为",
-      "interval": 3,
-      "ease": 2.6,
-      "due": 1777148316660,
-      "reps": 1,
-      "lapses": 0,
-      "hidden": false
-    },
-    {
       "id": "西风带",
       "interval": 3,
       "ease": 2.6,
@@ -49384,15 +45954,6 @@
       "reps": 1,
       "lapses": 0,
       "hidden": false
-    },
-    {
-      "id": "要造",
-      "interval": 1,
-      "ease": 2.5,
-      "due": 0,
-      "reps": 0,
-      "lapses": 0,
-      "hidden": true
     },
     {
       "id": "视频",
@@ -49474,15 +46035,6 @@
       "reps": 0,
       "lapses": 0,
       "hidden": true
-    },
-    {
-      "id": "负责人",
-      "interval": 3,
-      "ease": 2.6,
-      "due": 1777148354256,
-      "reps": 1,
-      "lapses": 0,
-      "hidden": false
     },
     {
       "id": "贡献",
@@ -49922,9 +46474,9 @@
       "id": "Argentina/算法能救阿根廷吗",
       "category": "Argentina",
       "name": "算法能救阿根廷吗",
-      "readCount": 1,
-      "lastRead": 1777392652485,
-      "updatedAt": 1777392652486
+      "readCount": 5,
+      "lastRead": 1777169912277,
+      "updatedAt": 1777169912277
     },
     {
       "id": "Geopolitics/为了和平我们白忙活了",
@@ -49938,17 +46490,9 @@
       "id": "Geopolitics/伊局势分析",
       "category": "Geopolitics",
       "name": "伊局势分析",
-      "readCount": 1,
-      "lastRead": 1777398126848,
-      "updatedAt": 1777398126848
-    },
-    {
-      "id": "Geopolitics/大国缠斗刺破AI泡沫",
-      "category": "Geopolitics",
-      "name": "大国缠斗刺破AI泡沫",
       "readCount": 2,
-      "lastRead": 1777398127503,
-      "updatedAt": 1777398127503
+      "lastRead": 1777156114492,
+      "updatedAt": 1777156114492
     },
     {
       "id": "Geopolitics/爱泼斯坦背后的全球资本黑网",
@@ -49957,134 +46501,14 @@
       "readCount": 1,
       "lastRead": 1777156113847,
       "updatedAt": 1777156113847
-    },
-    {
-      "id": "Geopolitics/美伊以地缘博弈与战略损益评析",
-      "category": "Geopolitics",
-      "name": "美伊以地缘博弈与战略损益评析",
-      "readCount": 3,
-      "lastRead": 1777137473185,
-      "updatedAt": 1777137473185
-    },
-    {
-      "id": "Geopolitics/美军封锁霍尔木兹海峡",
-      "category": "Geopolitics",
-      "name": "美军封锁霍尔木兹海峡",
-      "readCount": 4,
-      "lastRead": 1777137473184,
-      "updatedAt": 1777137473184
-    },
-    {
-      "id": "History/欧洲匮乏与中国内卷",
-      "category": "History",
-      "name": "欧洲匮乏与中国内卷",
-      "readCount": 1,
-      "lastRead": 1777135478848,
-      "updatedAt": 1777135478848
-    },
-    {
-      "id": "Industry/中国产业链与特斯拉的互利双赢",
-      "category": "Industry",
-      "name": "中国产业链与特斯拉的互利双赢",
-      "readCount": 3,
-      "lastRead": 1777137473187,
-      "updatedAt": 1777137473187
-    },
-    {
-      "id": "Interest/美国科学家集体神秘死亡",
-      "category": "Interest",
-      "name": "美国科学家集体神秘死亡",
-      "readCount": 6,
-      "lastRead": 1777137473187,
-      "updatedAt": 1777137473187
-    },
-    {
-      "id": "Interest/马航370数字劫持与2026搜寻疑云",
-      "category": "Interest",
-      "name": "马航370数字劫持与2026搜寻疑云",
-      "readCount": 8,
-      "lastRead": 1777137473188,
-      "updatedAt": 1777137473188
-    },
-    {
-      "id": "Life Style/towen",
-      "category": "Life Style",
-      "name": "towen",
-      "readCount": 1,
-      "lastRead": 1777137473186,
-      "updatedAt": 1777137473186
-    },
-    {
-      "id": "Life Style/yeye",
-      "category": "Life Style",
-      "name": "yeye",
-      "readCount": 2,
-      "lastRead": 1777137473186,
-      "updatedAt": 1777137473186
-    },
-    {
-      "id": "Life Style/zhexue-01",
-      "category": "Life Style",
-      "name": "zhexue-01",
-      "readCount": 1,
-      "lastRead": 1777137473185,
-      "updatedAt": 1777137473185
-    },
-    {
-      "id": "NotebookLM/外交大裁员引发的能源危机.",
-      "category": "NotebookLM",
-      "name": "外交大裁员引发的能源危机.",
-      "readCount": 1,
-      "lastRead": 1777137473188,
-      "updatedAt": 1777137473188
-    },
-    {
-      "id": "Politics/一带一路",
-      "category": "Politics",
-      "name": "一带一路",
-      "readCount": 1,
-      "lastRead": 1777397299238,
-      "updatedAt": 1777397299239
-    },
-    {
-      "id": "Politics/伊朗战争是彻底受不住了",
-      "category": "Politics",
-      "name": "伊朗战争是彻底受不住了",
-      "readCount": 1,
-      "lastRead": 1777137472860,
-      "updatedAt": 1777137472860
-    },
-    {
-      "id": "testing/Laolui",
-      "category": "testing",
-      "name": "Laolui",
-      "readCount": 2,
-      "lastRead": 1777137472939,
-      "updatedAt": 1777137472939
-    },
-    {
-      "id": "testing/Openai",
-      "category": "testing",
-      "name": "Openai",
-      "readCount": 2,
-      "lastRead": 1777137473031,
-      "updatedAt": 1777137473031
-    },
-    {
-      "id": "testing/yeye",
-      "category": "testing",
-      "name": "yeye",
-      "readCount": 1,
-      "lastRead": 1777137473189,
-      "updatedAt": 1777137473189
     }
   ],
   "settings": {
-    "theme": "everforest",
+    "theme": "gruvbox",
     "cardScale": 1,
     "sessionSize": 30,
-    "minimaxKey": "",
-    "openrouterKey": "",
+    "minimaxKey": "sk-api-ZX-9SYTFqbvtnS9gTQoJJc_Px1P1jPUE3LXF_YEgAr1WLfgVa5J-gPKJIBGvrBGKn6LnZHS__fPw4XzOFqpjpdS78lpoa-GG2xrNunXYsJvRCw_ZdfbAA7s",
+    "openrouterKey": "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",
     "readerTheme": "oled",
     "readerFont": "\"Taipei Sans TC Beta\", \"Microsoft YaHei\", sans-serif",
     "readerFontSize": 28,
@@ -50092,6 +46516,6 @@
     "readerActiveStyle": "underline-text",
     "readerAnimStyle": "pop",
     "id": "global",
-    "updatedAt": 1777398094065
+    "updatedAt": 1777257622463
   }
 }

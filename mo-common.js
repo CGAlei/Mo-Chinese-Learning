@@ -763,10 +763,50 @@ const MoBackup = (() => {
   }
 
   async function exportAndDownload() {
-    const data = await fullExport();
+    // Build export data object first (without stringifying yet)
+    const data = await MoDB.exportAll();
+
+    // Estimate byte size before heavy JSON.stringify
+    const textPartLen = JSON.stringify({
+      version: data.version,
+      date: data.date,
+      words: data.words,
+      sentences: data.sentences,
+      srs: data.srs,
+      sessions: data.sessions,
+      settings: data.settings,
+    }).length;
+
+    let audioLen = 0;
+    for (const a of Object.values(data.audio || {})) {
+      audioLen += (a.wordAudio || '').length;
+      for (const sa of (a.sentenceAudios || [])) {
+        audioLen += (sa.audio || '').length;
+      }
+      audioLen += 200; // JSON object overhead per record
+    }
+
+    const estimatedBytes = textPartLen + audioLen;
+    const estimatedMB = (estimatedBytes / (1024 * 1024)).toFixed(1);
+    const THRESHOLD = 15 * 1024 * 1024; // 15 MB
+
+    if (estimatedBytes > THRESHOLD) {
+      const proceed = confirm(
+        'Backup size: ~' + estimatedMB + ' MB (mostly audio).\n\n' +
+        'Large backups may be slow on mobile and crash older browsers.\n' +
+        'Your audio is safe, but consider using a ZIP-based backup for\n' +
+        'migrating to a new device.\n\n' +
+        'Continue with JSON export?'
+      );
+      if (!proceed) return;
+    }
+
+    console.log('[MoBackup] Estimated size: ' + estimatedMB + ' MB, threshold: 15 MB');
+
+    const json = JSON.stringify(data, null, 2);
     const timeStr = new Date().toTimeString().slice(0, 8).replace(/:/g, '-');
     const dateStr = new Date().toISOString().slice(0, 10);
-    downloadJSON(data, `mo_backup_${dateStr}_${timeStr}.json`);
+    downloadJSON(json, `mo_backup_${dateStr}_${timeStr}.json`);
   }
 
   return { fullExport, fullImport, downloadJSON, exportAndDownload };
@@ -800,5 +840,71 @@ const MoBackup = (() => {
     await MoSettings.init();
   }).catch(err => {
     console.error('[MoCommon] Failed to initialize MoDB:', err);
+  });
+})();
+
+
+/* ═══════════════════════════════════════════════
+   UNIFIED THEME CYCLER  (Alt+A)
+   ═══════════════════════════════════════════════ */
+(function() {
+  'use strict';
+  const THEMES = ['midnight', 'oled', 'nordic', 'gruvbox', 'everforest'];
+  const LS_KEY = 'mo_dict_theme';
+
+  function applyTheme(name) {
+    document.documentElement.setAttribute('data-theme', name);
+    document.querySelectorAll('#themeSelect').forEach(function(sel) {
+      if (sel.value !== name) sel.value = name;
+    });
+    try { localStorage.setItem(LS_KEY, name); } catch (e) {}
+    if (typeof MoSettings !== 'undefined' && MoSettings.set) {
+      try { MoSettings.set('theme', name); } catch (e) {}
+    }
+  }
+
+  function cycleTheme() {
+    const current = document.documentElement.getAttribute('data-theme') || 'gruvbox';
+    const idx = THEMES.indexOf(current);
+    const next = THEMES[(idx + 1) % THEMES.length];
+    applyTheme(next);
+    showToast(next);
+  }
+
+  function showToast(name) {
+    const id = 'mo-theme-toast';
+    let el = document.getElementById(id);
+    if (!el) {
+      el = document.createElement('div');
+      el.id = id;
+      el.style.cssText = 'position:fixed;top:20px;right:20px;z-index:9999;padding:10px 18px;border-radius:8px;background:var(--panel-bg);color:var(--highlight);border:1px solid var(--border);font-family:var(--ui-font-family);font-size:13px;letter-spacing:0.08em;text-transform:uppercase;font-weight:700;box-shadow:var(--shadow-md);opacity:0;transform:translateY(-10px);transition:opacity 0.2s,transform 0.2s;pointer-events:none;';
+      document.body.appendChild(el);
+    }
+    el.textContent = name;
+    void el.offsetWidth;
+    el.style.opacity = '1';
+    el.style.transform = 'translateY(0)';
+    clearTimeout(el._t);
+    el._t = setTimeout(function() {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(-10px)';
+    }, 1200);
+  }
+
+  document.addEventListener('keydown', function(e) {
+    if (e.ctrlKey && e.shiftKey && (e.key === 'x' || e.key === 'X')) {
+      e.preventDefault();
+      cycleTheme();
+    }
+  });
+
+  // Best-effort cross-tab sync via localStorage event
+  window.addEventListener('storage', function(e) {
+    if (e.key === LS_KEY && e.newValue) {
+      document.documentElement.setAttribute('data-theme', e.newValue);
+      document.querySelectorAll('#themeSelect').forEach(function(sel) {
+        if (sel.value !== e.newValue) sel.value = e.newValue;
+      });
+    }
   });
 })();

@@ -1141,9 +1141,9 @@
                     </div>
 
                     <div class="dict-controls">
-                        <div class="dict-info">
-                            <span class="title">Export Data</span>
-                            <span class="subtitle" id="dataExportStats">Backup everything</span>
+                        <div class="dict-info" id="dictStats">
+                            <span class="title">My Dictionary</span>
+                            <span class="subtitle" id="wordCountSubtitle">0 words saved</span>
                         </div>
                         <div class="dict-tools">
                             <button class="btn-icon" id="btnExportData" title="Backup all data">💾</button>
@@ -1786,7 +1786,7 @@
                 }
             });
             _syncToggleBtn();
-            syncReadCounts().then(updateCountStats);
+            loadAllToMemory().then(() => updateDictStats());
         }
 
         // ─── Read-Count Helpers ───────────────────────────────────────────────────────
@@ -1827,15 +1827,7 @@
 
         async function backupAllData() {
             try {
-                const json = await MoBackup.fullExport();
-                const blob = new Blob([json], { type: 'application/json' });
-                const url = URL.createObjectURL(blob);
-                const a = document.createElement('a');
-                a.href = url;
-                a.download = `mo_backup_${new Date().toISOString().slice(0,10)}.json`;
-                a.click();
-                URL.revokeObjectURL(url);
-                alert('Full backup downloaded ✓');
+                await MoBackup.exportAndDownload();
             } catch (err) {
                 console.error('Backup failed:', err);
                 alert('Backup failed: ' + err.message);
