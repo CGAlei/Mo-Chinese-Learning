@@ -62,11 +62,14 @@ if [[ ! -f "$INPUT_FILE" ]]; then
 fi
 
 # ── Run inside whisperx conda environment ────────────────────────────────────
+# Use the env's python directly instead of `conda run` to avoid a conda cache
+# bug where `conda run -n env` intermittently resolves the wrong interpreter.
+WHISPERX_PYTHON="$HOME/miniconda3/envs/whisperx/bin/python"
+
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo "  🔤  Dictionary Enrichment"
 echo "  📁  File   : $INPUT_FILE"
-echo "  🐍  Env    : whisperx (conda)"
+echo "  🐍  Python : $WHISPERX_PYTHON"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
-conda run -n whisperx --no-capture-output \
-    python "$SCRIPT_DIR/endict.py" "$INPUT_FILE" --in-place "$@"
+"$WHISPERX_PYTHON" "$SCRIPT_DIR/endict.py" "$INPUT_FILE" --in-place "$@"
